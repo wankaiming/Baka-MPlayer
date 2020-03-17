@@ -66,7 +66,7 @@ BakaEngine::~BakaEngine()
 void BakaEngine::LoadSettings()
 {
     settings->Load();
-    Load2_0_3();
+    Load2_0_0();
 }
 
 void BakaEngine::Command(QString command)

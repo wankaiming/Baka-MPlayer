@@ -25,7 +25,7 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is a free and open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; based multimedia player. Its simple design reflects the idea for an uncluttered, simple, and enjoyable environment for watching tv shows.&lt;br&gt;&lt;br&gt;Copyright © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is a free and open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; based multimedia player. Its simple design reflects the idea for an uncluttered, simple, and enjoyable environment for watching tv shows.&lt;br&gt;&lt;br&gt;Copyright © 2015 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; {2016 ?} {8s?} {8s?} {008098;?} {8s?}</translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is a free and open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; based multimedia player. Its simple design reflects the idea for an uncluttered, simple, and enjoyable environment for watching tv shows.&lt;br&gt;&lt;br&gt;Copyright © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -622,10 +622,6 @@
         <translation>전체 시간/남은 시간 전환</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation>-0:00:00</translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation>파일(&amp;F)</translation>
     </message>
@@ -824,10 +820,6 @@
     <message>
         <source>Stop after &amp;Current</source>
         <translation>현재 파일만 재생하기(&amp;C)</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>재생목록 보이기(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1154,7 +1146,7 @@ Note: Value must be from %0 - %1</source>
         <translation>자막 파일 지움?</translation>
     </message>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>선택 제거하기(&amp;R)</translation>
     </message>
     <message>
@@ -1508,10 +1500,6 @@ Version: %0</source>
     <message>
         <source>Updating...</source>
         <translation>업데이트중...</translation>
-    </message>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>업데이트 확인중...</translation>
     </message>
     <message>
         <source>Downloading update...</source>

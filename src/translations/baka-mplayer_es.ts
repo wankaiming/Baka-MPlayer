@@ -622,10 +622,6 @@
         <translation>Click para cambiar entre tiempo total y tiempo restante</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation>&amp;Archivo</translation>
     </message>
@@ -828,10 +824,6 @@
     <message>
         <source>&amp;Jump to Time...</source>
         <translation>Saltar al &amp;minuto...</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>Mostrar &amp;lista de reproducción</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1154,7 +1146,7 @@ Nota: El valor debe estar en el rango %0 - %1</translation>
         <translation>¿Deseas eliminar el archivo de subtítulo externo?</translation>
     </message>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>&amp;Eliminar de la lista de reproducción</translation>
     </message>
     <message>
@@ -1494,10 +1486,6 @@ Version: %0</source>
 </context>
 <context>
     <name>UpdateManager</name>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>Verificando actualizaciones...</translation>
-    </message>
     <message>
         <source>Downloading update...</source>
         <translation>Descargando actualización...</translation>

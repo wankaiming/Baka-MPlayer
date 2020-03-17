@@ -1,3 +1,18 @@
+baka-mplayer (3.0.0-1) unstable; urgency=low
+  
+  * New: 始终打开一个播放实例，并立即激活之前的窗口
+  * Fixed: 窗口标题，播放某些文件名显示乱码
+  * Changed: 拖动进度条的时候，显示的时间有缓慢滑入滑出的效果，产生延迟感，故直接剔除
+  * Changed: 更换播放器的图标
+  * Changed: 去掉打开另外一个播放器的菜单
+  * Changed: 去掉在线帮助的菜单
+  * Changed: 去掉关于页面下的乱码
+  * Changed: 去掉检查更新的菜单和功能，调整版本号为3.0.0
+  * Changed: 不显示播放列表
+  * Changed: 第二个播放剩余时间，改为总时长
+  
+ -- wankaiming 2020.3.14
+
 baka-mplayer (2.0.4-1) unstable; urgency=low
 
   * New: Highly requested Hide All Controls mode (under Settings menu)

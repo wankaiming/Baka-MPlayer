@@ -631,10 +631,6 @@
         <translation>Bấm để thay đổi giữa thời gian tối đa và còn lại</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation></translation>
     </message>
@@ -785,10 +781,6 @@
     <message>
         <source>&amp;Jump to Time...</source>
         <translation>Đ&amp;i tới...</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>Hiện &amp;danh sách phát</translation>
     </message>
     <message>
         <source>Hide &amp;Album Art</source>
@@ -1155,7 +1147,7 @@ Lưu ý: Giá trị phải trong khoảng từ %0 - %1</translation>
         <translation>Xoá các tập tin phụ đề bên ngoài?</translation>
     </message>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>&amp;Gỡ khỏi danh sách phát</translation>
     </message>
     <message>
@@ -1496,10 +1488,6 @@ Phiên bản: %0</translation>
 </context>
 <context>
     <name>UpdateManager</name>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>Đang kiểm tra các cập nhật...</translation>
-    </message>
     <message>
         <source>Downloading update...</source>
         <translation>Đang tải các cập nhật...</translation>

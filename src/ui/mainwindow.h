@@ -54,6 +54,7 @@ public:
 public slots:
     void Load(QString f = QString());
     void MapShortcuts();
+    void playFile(QString f = QString());
 
 protected:
     void dragEnterEvent(QDragEnterEvent *event);    // drag file into

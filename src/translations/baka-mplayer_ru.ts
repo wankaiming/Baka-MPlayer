@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is a free and open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; based multimedia player. Its simple design reflects the idea for an uncluttered, simple, and enjoyable environment for watching tv shows.&lt;br&gt;&lt;br&gt;Copyright © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; - свободный, открытый и кроссплатформенный медиаплеер, основанный на &lt;b&gt;libmpv&lt;/b&gt;. Его простой дизайн прекрасно отражает идею о лаконичном, простом и приятном окружении для просмотра телешоу.&lt;br&gt;&lt;br&gt;Авторские права © 2015 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; {2016 ?} {8s?} {8s?} {008098;?} {8s?}</translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; - свободный, открытый и кроссплатформенный медиаплеер, основанный на &lt;b&gt;libmpv&lt;/b&gt;. Его простой дизайн прекрасно отражает идею о лаконичном, простом и приятном окружении для просмотра телешоу.&lt;br&gt;&lt;br&gt;Авторские права © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
     <message>
         <source>License</source>
@@ -623,10 +623,6 @@
         <translation>Кликнуть для переключения между общим и оставшимся временем</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation>-0:00:00</translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
@@ -777,10 +773,6 @@
     <message>
         <source>&amp;Jump to Time...</source>
         <translation>Перейти &amp;ко времени...</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>Показать &amp;список воспроизведения</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1142,7 +1134,7 @@ Note: Value must be from %0 - %1</source>
 <context>
     <name>PlaylistWidget</name>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>&amp;Удалить из списка</translation>
     </message>
     <message>
@@ -1507,10 +1499,6 @@ Version: %0</source>
     <message>
         <source>Updating...</source>
         <translation>Обновление...</translation>
-    </message>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>Проверка обновлений...</translation>
     </message>
     <message>
         <source>Downloading update...</source>

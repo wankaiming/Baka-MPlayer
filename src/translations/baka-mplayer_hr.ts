@@ -622,10 +622,6 @@
         <translation type="unfinished">Klikni za promjenu prikaza između ukupnog i preostalog vremena</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation>-0:00:00</translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation type="unfinished">&amp;Datoteka</translation>
     </message>
@@ -764,10 +760,6 @@
     <message>
         <source>&amp;Jump to Time...</source>
         <translation type="unfinished">&amp;Premotaj u vrijeme...</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation type="unfinished">&amp;Prikaži popis izvođenja</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1142,7 +1134,7 @@ Napomena: vrijednost mora biti %0 - %1</translation>
 <context>
     <name>PlaylistWidget</name>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation type="unfinished">U&amp;kloni s popisa izvođenja</translation>
     </message>
     <message>
@@ -1508,10 +1500,6 @@ Inačica: %0</translation>
     <message>
         <source>Updating...</source>
         <translation type="unfinished">Nadopunavanje...</translation>
-    </message>
-    <message>
-        <source>Checking for updates...</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Downloading update...</source>

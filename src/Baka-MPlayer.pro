@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-VERSION   = 2.0.4
+VERSION   = 3.0.0
 QT       += core gui network svg
 CODECFORSRC = UTF-8
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
@@ -155,7 +155,6 @@ SOURCES += main.cpp\
     overlayhandler.cpp \
     util.cpp \
     settings.cpp \
-    versions/2_0_3.cpp \
     widgets/customlabel.cpp \
     widgets/customlineedit.cpp \
     widgets/customslider.cpp \
@@ -174,7 +173,9 @@ SOURCES += main.cpp\
     ui/screenshotdialog.cpp \
     ui/updatedialog.cpp \
     ui/keydialog.cpp \
-    overlay.cpp
+    overlay.cpp \
+    versions/2_0_0.cpp \
+    singleapplication.cpp
 
 HEADERS  += \
     bakaengine.h \
@@ -204,7 +205,8 @@ HEADERS  += \
     ui/screenshotdialog.h \
     ui/updatedialog.h \
     ui/keydialog.h \
-    recent.h
+    recent.h \
+    singleapplication.h
 
 FORMS    += \
     ui/aboutdialog.ui \

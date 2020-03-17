@@ -322,7 +322,7 @@ void PlaylistWidget::contextMenuEvent(QContextMenuEvent *event)
     if(item != nullptr)
     {
         QMenu *menu = new QMenu();
-        connect(menu->addAction(tr("R&emove from Playlist")), &QAction::triggered, // Playlist: Remove from playlist (right-click)
+        connect(menu->addAction(tr("&Remove from Playlist")), &QAction::triggered, // Playlist: Remove from playlist (right-click)
                 [=]
                 {
                     RemoveFromPlaylist(item);

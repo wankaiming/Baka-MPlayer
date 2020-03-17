@@ -13,7 +13,7 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is a free and open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; based multimedia player. Its simple design reflects the idea for an uncluttered, simple, and enjoyable environment for watching tv shows.&lt;br&gt;&lt;br&gt;Copyright © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; é um reprodutor multimídia gratuito de código aberto, multiplataforma e baseado em &lt;b&gt;libmpv&lt;/b&gt;. O seu design simples reflete a ideia de um ambiente organizado, simples e agradável para assistir séries de TV.&lt;br&gt;&lt;br&gt;Copyright © 2015 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; é um reprodutor multimídia gratuito de código aberto, multiplataforma e baseado em &lt;b&gt;libmpv&lt;/b&gt;. O seu design simples reflete a ideia de um ambiente organizado, simples e agradável para assistir séries de TV.&lt;br&gt;&lt;br&gt;Copyright © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Credits</source>
@@ -626,10 +626,6 @@
         <translation>Clique para alternar entre o tempo total e o tempo restante</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation>-0:00:00</translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation>&amp;Arquivo</translation>
     </message>
@@ -827,10 +823,6 @@
     <message>
         <source>Stop after &amp;Current</source>
         <translation>&amp;Parar Reprodução Após o Arquivo Atual</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>&amp;Exibir Lista de Reprodução</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1163,7 +1155,7 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>Excluir o arquivo externo de legenda?</translation>
     </message>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>R&amp;emover da Lista de Reprodução</translation>
     </message>
     <message>
@@ -1514,10 +1506,6 @@ Versão: %0</translation>
     <message>
         <source>Updating...</source>
         <translation>Atualizando...</translation>
-    </message>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>Verificando atualizações...</translation>
     </message>
     <message>
         <source>Downloading update...</source>

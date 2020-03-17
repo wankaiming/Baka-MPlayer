@@ -34,6 +34,7 @@ UpdateManager::~UpdateManager()
 
 bool UpdateManager::CheckForUpdates()
 {
+	/*
     if(busy)
         return false;
     busy = true;
@@ -74,6 +75,7 @@ bool UpdateManager::CheckForUpdates()
                 }
                 reply->deleteLater();
             });
+	*/
     return true;
 }
 

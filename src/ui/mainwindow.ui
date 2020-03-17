@@ -652,7 +652,7 @@ QSlider::sub-page:horizontal {
              <string>Click to change between total and remaining time</string>
             </property>
             <property name="text">
-             <string>-0:00:00</string>
+             <string>0:00:00</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -969,49 +969,6 @@ QSlider::handle:horizontal {
          </property>
         </spacer>
        </item>
-       <item>
-        <widget class="QPushButton" name="playlistButton">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>16</width>
-           <height>16</height>
-          </size>
-         </property>
-         <property name="cursor">
-          <cursorShape>PointingHandCursor</cursorShape>
-         </property>
-         <property name="focusPolicy">
-          <enum>Qt::NoFocus</enum>
-         </property>
-         <property name="icon">
-          <iconset resource="../rsclist.qrc">
-           <normaloff>:/img/default_playlist.svg</normaloff>
-           <disabledoff>:/img/disabled_playlist.svg</disabledoff>
-           <disabledon>:/img/disabled_playlist.svg</disabledon>:/img/default_playlist.svg</iconset>
-         </property>
-         <property name="iconSize">
-          <size>
-           <width>16</width>
-           <height>16</height>
-          </size>
-         </property>
-         <property name="checked">
-          <bool>false</bool>
-         </property>
-         <property name="flat">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
     </item>
@@ -1026,7 +983,7 @@ QSlider::handle:horizontal {
      <x>0</x>
      <y>0</y>
      <width>636</width>
-     <height>23</height>
+     <height>18</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_File">
@@ -1039,7 +996,6 @@ QSlider::handle:horizontal {
      </property>
      <addaction name="action_none_4"/>
     </widget>
-    <addaction name="action_New_Player"/>
     <addaction name="separator"/>
     <addaction name="action_Open_File"/>
     <addaction name="actionOpen_URL"/>
@@ -1216,7 +1172,6 @@ QSlider::handle:horizontal {
     <property name="title">
      <string>&amp;Settings</string>
     </property>
-    <addaction name="action_Show_Playlist"/>
     <addaction name="action_Hide_Album_Art"/>
     <addaction name="separator"/>
     <addaction name="action_Dim_Lights"/>
@@ -1229,8 +1184,6 @@ QSlider::handle:horizontal {
     <property name="title">
      <string>&amp;Help</string>
     </property>
-    <addaction name="actionOnline_Help"/>
-    <addaction name="action_Check_for_Updates"/>
     <addaction name="actionUpdate_Streaming_Support"/>
     <addaction name="separator"/>
     <addaction name="actionAbout_Qt"/>
@@ -1410,17 +1363,6 @@ QSlider::handle:horizontal {
    </property>
    <property name="text">
     <string>&amp;Jump to Time...</string>
-   </property>
-  </action>
-  <action name="action_Show_Playlist">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
-   <property name="text">
-    <string>&amp;Show Playlist</string>
    </property>
   </action>
   <action name="action_Hide_Album_Art">

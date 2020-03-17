@@ -623,10 +623,6 @@
         <translation>Cliquer pour passer du temps total au temps restant</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation>&amp;Fichier</translation>
     </message>
@@ -781,10 +777,6 @@
     <message>
         <source>&amp;Jump to Time...</source>
         <translation>Sauter au &amp;temps...</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>&amp;Afficher la liste de lecture</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1143,7 +1135,7 @@ Information : la valeur doit être comprise entre %0 et %1</translation>
 <context>
     <name>PlaylistWidget</name>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>R&amp;etirer de la liste de lecture</translation>
     </message>
     <message>
@@ -1496,10 +1488,6 @@ Version : %0</translation>
 </context>
 <context>
     <name>UpdateManager</name>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>Vérification de la présence de mises à jour...</translation>
-    </message>
     <message>
         <source>Downloading update...</source>
         <translation>Téléchargement des mises à jour...</translation>

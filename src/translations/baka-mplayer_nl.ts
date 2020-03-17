@@ -25,7 +25,7 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is a free and open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; based multimedia player. Its simple design reflects the idea for an uncluttered, simple, and enjoyable environment for watching tv shows.&lt;br&gt;&lt;br&gt;Copyright © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is een gratis en open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; gebaseerde multimedia speler. Zijn eenvoudige ontwerp weerspiegelt het idee voor een overzichtelijke, eenvoudige en aangename omgeving voor het bekijken van tv-shows.&lt;br&gt;&lt;br&gt;Copyright © 2015 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; {2016 ?} {8s?} {8s?} {008098;?} {8s?}</translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Baka MPlayer&lt;/b&gt; is een gratis en open source, cross-platform, &lt;b&gt;libmpv&lt;/b&gt; gebaseerde multimedia speler. Zijn eenvoudige ontwerp weerspiegelt het idee voor een overzichtelijke, eenvoudige en aangename omgeving voor het bekijken van tv-shows.&lt;br&gt;&lt;br&gt;Copyright © 2016 godly-devotion, u8sand&lt;br&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/u8sand/Baka-MPlayer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#008098;&quot;&gt;https://github.com/u8sand/Baka-MPlayer&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -622,10 +622,6 @@
         <translation>Klik om te veranderen tussen totale- en beschikbare tijd</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation>&amp;Bestand</translation>
     </message>
@@ -772,10 +768,6 @@
     <message>
         <source>&amp;Jump to Time...</source>
         <translation>&amp;Spring naar Tijd...</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>&amp;Weergeef Afspeellijst</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1142,7 +1134,7 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
 <context>
     <name>PlaylistWidget</name>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>V&amp;erwijder van Afspeellijst</translation>
     </message>
     <message>
@@ -1494,10 +1486,6 @@ Version: %0</source>
 </context>
 <context>
     <name>UpdateManager</name>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>Controleren voor updates...</translation>
-    </message>
     <message>
         <source>Downloading update...</source>
         <translation>Update downloaden...</translation>

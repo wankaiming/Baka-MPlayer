@@ -110,7 +110,7 @@ protected slots:
     void RequiresParameters(QString);
 
     // Settings Loading
-    void Load2_0_3();
+    void Load2_0_0();
 
 signals:
 

@@ -622,10 +622,6 @@
         <translation>Klicken um zwischen Gesamtlaufzeit und verbleibener Laufzeit zu wechseln</translation>
     </message>
     <message>
-        <source>-0:00:00</source>
-        <translation>-0:00:00</translation>
-    </message>
-    <message>
         <source>&amp;File</source>
         <translation>&amp;Datei</translation>
     </message>
@@ -772,10 +768,6 @@
     <message>
         <source>&amp;Jump to Time...</source>
         <translation>&amp;Springe zu...</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation>&amp;Wiedergabeliste anzeigen</translation>
     </message>
     <message>
         <source>&amp;Dim Lights</source>
@@ -1143,7 +1135,7 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
 <context>
     <name>PlaylistWidget</name>
     <message>
-        <source>R&amp;emove from Playlist</source>
+        <source>&amp;Remove from Playlist</source>
         <translation>Aus Wiedergabeliste &amp;entfernen</translation>
     </message>
     <message>
@@ -1496,10 +1488,6 @@ Version: %0</translation>
 </context>
 <context>
     <name>UpdateManager</name>
-    <message>
-        <source>Checking for updates...</source>
-        <translation>Suche nach Updates...</translation>
-    </message>
     <message>
         <source>Downloading update...</source>
         <translation>Lade Update herunter...</translation>

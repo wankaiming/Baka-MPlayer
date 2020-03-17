@@ -189,7 +189,7 @@ void BakaEngine::BakaStop(QStringList &args)
 
 void BakaEngine::BakaPlaylist(QStringList &args)
 {
-    if(!args.empty())
+    /*if(!args.empty())
     {
         QString arg = args.front();
         args.pop_front();
@@ -288,6 +288,8 @@ void BakaEngine::BakaPlaylist(QStringList &args)
     }
     else
         RequiresParameters("baka playlist");
+	
+	*/
 }
 
 void BakaEngine::BakaJump(QStringList &args)

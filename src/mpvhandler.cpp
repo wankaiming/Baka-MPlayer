@@ -890,7 +890,7 @@ void MpvHandler::OpenFile(QString f)
 
 QString MpvHandler::PopulatePlaylist()
 {
-    if(path != "")
+    /*if(path != "")
     {
         QStringList playlist;
         QDir root(path);
@@ -905,7 +905,7 @@ QString MpvHandler::PopulatePlaylist()
         if(playlist.empty())
             return QString();
         return playlist.first();
-    }
+    }*/
     return QString();
 }
 

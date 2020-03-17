@@ -120,3 +120,6 @@ Please use the [issues tracker](https://github.com/u8sand/Baka-MPlayer/issues) p
 
 You can ask us questions about using Baka MPlayer, give feedback, or discuss its development.
 However, if possible, please avoid posting bugs there and use the [issue tracker](https://github.com/u8sand/Baka-MPlayer/issues) instead.
+
+## Windows 下编译出中文版本
+需要在qmake处增加额外的参数："CONFIG+=embed_translations"

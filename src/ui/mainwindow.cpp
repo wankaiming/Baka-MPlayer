@@ -5,7 +5,6 @@
 #include <QLibraryInfo>
 #include <QMimeData>
 #include <QDesktopWidget>
-
 #include "bakaengine.h"
 #include "mpvhandler.h"
 #include "gesturehandler.h"
@@ -78,7 +77,7 @@ MainWindow::MainWindow(QWidget *parent):
         {"playlist repeat playlist", ui->action_Playlist},
         {"playlist repeat this", ui->action_This_File},
         {"playlist shuffle", ui->actionSh_uffle},
-        {"playlist toggle", ui->action_Show_Playlist},
+        //{"playlist toggle", ui->action_Show_Playlist},
         {"playlist full", ui->action_Hide_Album_Art},
         {"dim", ui->action_Dim_Lights},
         {"play_pause", ui->action_Play},
@@ -267,14 +266,16 @@ MainWindow::MainWindow(QWidget *parent):
             {
                 if(mpv->getPlayState() > 0)
                 {
+					
+					QString f = mpv->getFile(), file = mpv->getPath()+f;
                     if(fileInfo.media_title == "")
                         setWindowTitle("Baka MPlayer");
                     else if(fileInfo.media_title == "-")
                         setWindowTitle("Baka MPlayer: stdin"); // todo: disable playlist?
                     else
-                        setWindowTitle(fileInfo.media_title);
-
-                    QString f = mpv->getFile(), file = mpv->getPath()+f;
+                        //setWindowTitle(fileInfo.media_title);
+						setWindowTitle(f);
+                    
                     if(f != QString() && maxRecent > 0)
                     {
                         int i = recent.indexOf(file);
@@ -305,7 +306,7 @@ MainWindow::MainWindow(QWidget *parent):
                         if(mpv->getSpeed() != 1)
                             mpv->Speed(1);
 
-                    ui->seekBar->setTracking(fileInfo.length);
+                    ui->seekBar->setTracking(mpv, fileInfo.length);
 
                     if(ui->actionMedia_Info->isChecked())
                         baka->MediaInfo(true);
@@ -501,8 +502,8 @@ MainWindow::MainWindow(QWidget *parent):
 #if defined(Q_OS_WIN)
                         playpause_toolbutton->setEnabled(true);
 #endif
-                        ui->playlistButton->setEnabled(true);
-                        ui->action_Show_Playlist->setEnabled(true);
+                        //ui->playlistButton->setEnabled(true);
+                        //ui->action_Show_Playlist->setEnabled(true);
                         ui->menuAudio_Tracks->setEnabled(true);
                         init = true;
                     }
@@ -540,7 +541,7 @@ MainWindow::MainWindow(QWidget *parent):
                             {
                                 setWindowTitle("Baka MPlayer");
                                 SetPlaybackControls(false);
-                                ui->seekBar->setTracking(0);
+                                ui->seekBar->setTracking(mpv, 0);
                                 ui->actionStop_after_Current->setChecked(false);
                                 if(ui->mpvFrame->styleSheet() != QString()) // remove filler album art
                                     ui->mpvFrame->setStyleSheet("");
@@ -734,11 +735,11 @@ MainWindow::MainWindow(QWidget *parent):
                 mpv->Volume(i, true);
             });
 
-    connect(ui->playlistButton, &QPushButton::clicked,                  // Playback: Clicked the playlist button
+    /*connect(ui->playlistButton, &QPushButton::clicked,                  // Playback: Clicked the playlist button
             [=]
             {
                 TogglePlaylist();
-            });
+            });*/
 
     connect(ui->splitter, &CustomSplitter::positionChanged,             // Splitter position changed
             [=](int i)
@@ -746,21 +747,22 @@ MainWindow::MainWindow(QWidget *parent):
                 blockSignals(true);
                 if(i == 0) // right-most, playlist is hidden
                 {
-                    ui->action_Show_Playlist->setChecked(false);
+                    //ui->action_Show_Playlist->setChecked(false);
                     ui->action_Hide_Album_Art->setChecked(false);
                     ui->playlistLayoutWidget->setVisible(false);
                 }
                 else if(i == ui->splitter->max()) // left-most, album art is hidden, playlist is visible
                 {
-                    ui->action_Show_Playlist->setChecked(true);
+                    //ui->action_Show_Playlist->setChecked(true);
                     ui->action_Hide_Album_Art->setChecked(true);
                 }
                 else // in the middle, album art is visible, playlist is visible
                 {
-                    ui->action_Show_Playlist->setChecked(true);
+                    //ui->action_Show_Playlist->setChecked(true);
                     ui->action_Hide_Album_Art->setChecked(false);
                 }
-                ui->playlistLayoutWidget->setVisible(ui->action_Show_Playlist->isChecked());
+                //ui->playlistLayoutWidget->setVisible(ui->action_Show_Playlist->isChecked());
+                ui->playlistLayoutWidget->setVisible(false);
                 blockSignals(false);
                 if(ui->actionMedia_Info->isChecked())
                     baka->overlay->showInfoText();
@@ -916,6 +918,11 @@ void MainWindow::MapShortcuts()
         (*iter)->setShortcut(QKeySequence());
 }
 
+void MainWindow::playFile(QString file)
+{
+    mpv->LoadFile(file);
+}
+
 void MainWindow::dragEnterEvent(QDragEnterEvent *event)
 {
     if(event->mimeData()->hasUrls() || event->mimeData()->hasText()) // url / text
@@ -1018,6 +1025,8 @@ bool MainWindow::eventFilter(QObject *obj, QEvent *event)
         QKeyEvent *keyEvent = static_cast<QKeyEvent*>(event);
         keyPressEvent(keyEvent);
     }
+
+
     return false;
 }
 
@@ -1299,6 +1308,10 @@ void MainWindow::SetRemainingLabels(int time)
         ui->seperatorLabel->setVisible(true);
 
         ui->durationLabel->setText(Util::FormatTime(time, fi.length));
+		
+		QString text = Util::FormatTime(fi.length, fi.length);
+        ui->remainingLabel->setText(text);
+		/*
         if(remaining)
         {
             int remainingTime = fi.length - time;
@@ -1320,5 +1333,8 @@ void MainWindow::SetRemainingLabels(int time)
             }
             ui->remainingLabel->setText(text);
         }
+		*/
     }
 }
+
+
