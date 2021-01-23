@@ -121,5 +121,19 @@ Please use the [issues tracker](https://github.com/u8sand/Baka-MPlayer/issues) p
 You can ask us questions about using Baka MPlayer, give feedback, or discuss its development.
 However, if possible, please avoid posting bugs there and use the [issue tracker](https://github.com/u8sand/Baka-MPlayer/issues) instead.
 
+## 首先安装Qt开发环境
+1 下载qt-opensource-windows-x86-x.x.x.exe安装包
+2 选择组件的时候，勾选 Tools（Qt Creator）
+
+## 安装MSYS2，并更新为最新
+1 到这里下载最新的安装包 https://www.msys2.org
+2 修改镜像源，否则更新太慢
+3 pacman -Syu 更新到最新的组件 
+4 安装编译的依赖
+pacman -S  git mingw-w64-x86_64-gcc mingw-w64-x86_64-binutils mingw-w64-x86_64-make base-devel mingw-w64-x86_64-qt5 mingw-w64-x86_64-pkg-config mingw-w64-x86_64-mpv mingw-w64-x86_64-libzip mingw-w64-x86_64-jbigkit mingw-w64-x86_64-mpg123
+
+## 导入项目
+将项目Baka-MPlayer\src\Baka-MPlayer.pro导入到 Qt Creator
+
 ## Windows 下编译出中文版本
 需要在qmake处增加额外的参数："CONFIG+=embed_translations"

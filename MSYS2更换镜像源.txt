@@ -1,0 +1,44 @@
+MSYS2更换镜像源
+添加清华源和中科大源
+\etc\pacman.d 目录下有三个文件。
+
+mirrorlist.msys
+mirrorlist.mingw64
+mirrorlist.mingw32
+
+mirrorlist.msys：
+
+##
+## MSYS2 repository mirrorlist
+##
+
+## Primary
+## msys2.org
+Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/$arch
+Server = http://mirrors.ustc.edu.cn/msys2/msys/$arch/
+
+mirrorlist.mingw64：
+
+##
+## 64-bit Mingw-w64 repository mirrorlist
+##
+
+## Primary
+## msys2.org
+Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/x86_64
+Server = http://mirrors.ustc.edu.cn/msys2/mingw/x86_64/
+
+mirrorlist.mingw32：
+
+##
+## 32-bit Mingw-w64 repository mirrorlist
+##
+
+## Primary
+## msys2.org
+Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/i686
+Server = http://mirrors.ustc.edu.cn/msys2/mingw/i686/
+
+
+更新核心软件包。
+pacman -Syu
