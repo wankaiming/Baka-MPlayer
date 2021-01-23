@@ -7,7 +7,10 @@
 
 # for systems with python pointing to python3, many packages in mxe use python and expect python2
 #  the easy way to get around this issue is by uncommenting out the line below.
-#alias python=python2
+alias python=python2
+
+# 忽略 git ssl 证书验证
+git config --global http.sslVerify false 
 
 if [[ $1 == 'x86_64' ]]; then
 	ARCH=x86_64
@@ -25,21 +28,22 @@ RELEASE=$DIR/release.$ARCH
 JOBS=`grep -c ^processor /proc/cpuinfo`
 
 function download_mxe {
-  cd "$SRC" && git clone https://github.com/mxe/mxe.git mxe || return 1
+  cd "$SRC" && git clone https://hub.fastgit.org/mxe/mxe.git mxe || return 1
   return 0
 }
 
 function download_mpv {
-  cd "$SRC" && git clone https://github.com/mpv-player/mpv.git mpv || return 1
+  cd "$SRC" && git clone https://hub.fastgit.org/mpv-player/mpv.git mpv || return 1
   return 0
 }
 
 function download_baka {
-  cd "$SRC" && git clone https://github.com/u8sand/Baka-MPlayer.git Baka-MPlayer || return 1
+  cd "$SRC" && git clone https://hub.fastgit.org/u8sand/Baka-MPlayer.git Baka-MPlayer || return 1
   return 0
 }
 
-function download_patches { # todo
+function download_patches { 
+  # todo 如果想要打补丁的话，手动放入补丁
   mkdir -p "$SRC/patches" || return 1
   return 0
 }
@@ -49,8 +53,10 @@ function download_extras {
   cd "$SRC/release"
   wget https://yt-dl.org/downloads/latest/youtube-dl.exe || return 1
   mkdir -p mpv
-  cd mpv && wget https://raw.githubusercontent.com/lachs0r/mingw-w64-cmake/master/packages/mpv/mpv/fonts.conf || return 1
+  cd mpv 
+  wget https://raw.githubusercontent.com/lachs0r/mingw-w64-cmake/master/packages/mpv/mpv/fonts.conf || return 1
   mkdir -p fonts
+  cd fonts
   # todo: download fonts
 }
 
@@ -61,6 +67,7 @@ function update {
 }
 
 function copy {
+  echo "Copying $1..."
   cp -r "$SRC/$1" "$BUILD/$1.$ARCH" || return 1
   return 0
 }
@@ -149,6 +156,7 @@ function build_release {
 
 if [ ! -d "$SRC" ]; then
   mkdir -p "$SRC" "$SRC/release"
+  echo "$SRC/release..."
 fi
 
 if [ ! -d "$SRC/mxe" ]; then
@@ -176,7 +184,8 @@ if [ ! -d "$SRC/patches" ]; then
 fi
 
 if [ ! -d "$SRC/release" ]; then
-  download_extras
+  #download_extras 手动放入  mpv  fonts  youtube-dl.exe
+  echo "Downloading extras..."
   extras_pid=$!
 fi
 
