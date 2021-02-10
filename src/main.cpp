@@ -1,13 +1,16 @@
 #include "ui/mainwindow.h"
-#include "singleapplication.h"
 
+#include <QApplication>
 #include <QLocale>
 #include <QString>
+#include <QMessageBox>
 
 #include <locale.h>
 
 #if defined(Q_OS_WIN)
 #include <windows.h>
+#include "psapi.h"
+#include <tlhelp32.h>
 #endif
 
 int main(int argc, char *argv[])
@@ -15,9 +18,30 @@ int main(int argc, char *argv[])
 #if defined(Q_OS_WIN)
     FreeConsole();
 #endif
-    /*
+
     QApplication a(argc, argv);
     setlocale(LC_NUMERIC, "C"); // for mpv
+
+    QString exeName = a.applicationFilePath().split("/").last();
+    DWORD pid = GetCurrentProcessId();
+
+    PROCESSENTRY32 pe32;
+    pe32.dwSize = sizeof(pe32);
+    HANDLE hProcessSnap = ::CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+    bool bMore = ::Process32First(hProcessSnap, &pe32);
+    while(bMore)
+    {
+        QString strProcessName = QString::fromWCharArray(pe32.szExeFile);
+        if(strProcessName == exeName && pe32.th32ProcessID != pid)
+        {
+            int ID = pe32.th32ProcessID;
+            HANDLE hProcess;
+            hProcess = OpenProcess(PROCESS_ALL_ACCESS, TRUE, ID);
+            TerminateProcess(hProcess, 0);
+        }
+        bMore = ::Process32Next(hProcessSnap, &pe32);
+    }
+
 
     MainWindow w;
     w.show();
@@ -31,26 +55,8 @@ int main(int argc, char *argv[])
         w.Load();
 
     return a.exec();
-    */
 
-    //单实例进程，或者说防止程序多开
-    SingleApplication a(argc, argv);
-
-    if (!a.isRunning())
-    {
-        MainWindow w;
-        a.mainWindow = &w;
-        w.show();
-
-        // parse command line
-        QStringList args = SingleApplication::arguments();
-        QStringList::iterator arg = args.begin();
-        if(++arg != args.end())
-            w.Load(*arg);
-        else
-            w.Load();
-
-        return a.exec();
-    }
-    return 0;
 }
+
+
+
