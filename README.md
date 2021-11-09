@@ -122,20 +122,38 @@ You can ask us questions about using Baka MPlayer, give feedback, or discuss its
 However, if possible, please avoid posting bugs there and use the [issue tracker](https://github.com/u8sand/Baka-MPlayer/issues) instead.
 
 ## 安装MSYS2，并更新为最新
-1 到这里下载最新的安装包 https://www.msys2.org
-2 修改镜像源，否则更新太慢
-3 pacman -Syu 更新到最新的组件 
-4 安装编译的依赖
+1. 到这里下载最新的安装包 https://www.msys2.org
+2. 修改镜像源，否则更新太慢
+3. pacman -Syu 更新到最新的组件 
+4. 安装编译的依赖
+```
 pacman -S --needed base-devel mingw-w64-x86_64-toolchain
 
-pacman -S  git mingw-w64-x86_64-gcc mingw-w64-x86_64-binutils mingw-w64-x86_64-make base-devel mingw-w64-x86_64-qt5 mingw-w64-x86_64-pkg-config mingw-w64-x86_64-mpv mingw-w64-x86_64-libzip mingw-w64-x86_64-jbigkit mingw-w64-x86_64-mpg123
+pacman -S git mingw-w64-x86_64-gcc mingw-w64-x86_64-binutils mingw-w64-x86_64-make base-devel mingw-w64-x86_64-qt5 mingw-w64-x86_64-pkg-config mingw-w64-x86_64-mpv mingw-w64-x86_64-libzip mingw-w64-x86_64-jbigkit mingw-w64-x86_64-mpg123
+```
 
 ## 安装Qt开发环境
-下载Qt5.15.2-Windows-x86_64-MinGW8.1.0-20201214.7z，解压出来作为Qt的基础依赖
-下载qt-creator-opensource-windows-x86_64-5.0.3.exe，安装qt开发工具，kits配置好mingw的编译器，qt版本
+1. 下载Qt5.15.2-Windows-x86_64-MinGW8.1.0-20201214.7z，解压出来作为Qt的基础依赖
+2. 下载qt-creator-opensource-windows-x86_64-5.0.3.exe，安装qt开发工具，kits配置好mingw的编译器，qt版本
 
 ## 导入项目
 将项目Baka-MPlayer\src\Baka-MPlayer.pro导入到 Qt Creator
 
 ## Windows 下编译出中文版本
 需要在qmake处增加额外的参数："CONFIG+=embed_translations"
+
+## 查找依赖的dll，生成绿色软件包
+1. ### 将release生成exe放到一个单独的文件夹 
+	C:\Users\admin\Desktop\baka-mplayer\
+
+2. ### qt相关的依赖可以通过这个命令得到
+	通过 MSYS2 MinGW 64-bit 命令界面  windeployqt.exe /c/Users/admin/Desktop/baka-mplayer/baka-mplayer.exe
+
+3. ### mingw相关的依赖，可以通过以下两种方式得到
+	3.1 Dependencies.exe  -modules C:\Users\admin\Desktop\baka-mplayer\baka-mplayer.exe | findstr "mingw"  
+	Dependencies.exe 这个可以到这里下载 https://github.com/lucasg/Dependencies/releases
+
+	3.2 通过 MSYS2 MinGW 64-bit 命令界面  ldd.exe /c/Users/admin/Desktop/baka-mplayer/baka-mplayer.exe | grep "mingw"
+	
+	通过上面两种方法之一，拿到依赖的dll后，再通过文本处理，变为一个批量复制dll到C:\Users\admin\Desktop\baka-mplayer的cmd命令，运行这个cmd命令，就可以把所有依赖的dll都复制过来了
+
