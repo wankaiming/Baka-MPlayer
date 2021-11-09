@@ -286,12 +286,12 @@ bool MpvHandler::FileExists(QString f)
     return QFile(f).exists();
 }
 
-void MpvHandler::LoadFile(QString f)
+void MpvHandler::LoadFile(QString f, bool enableReadDirPlayList)
 {
-    PlayFile(LoadPlaylist(f));
+    PlayFile(LoadPlaylist(f, enableReadDirPlayList));
 }
 
-QString MpvHandler::LoadPlaylist(QString f)
+QString MpvHandler::LoadPlaylist(QString f, bool enableReadDirPlayList)
 {
     if(f == QString()) // ignore empty file name
         return QString();
@@ -317,12 +317,12 @@ QString MpvHandler::LoadPlaylist(QString f)
         else if(fi.isDir()) // if directory
         {
             setPath(QDir::toNativeSeparators(fi.absoluteFilePath()+"/")); // set new path
-            return PopulatePlaylist();
+            return PopulatePlaylist(enableReadDirPlayList);
         }
         else if(fi.isFile()) // if file
         {
             setPath(QDir::toNativeSeparators(fi.absolutePath()+"/")); // set new path
-            PopulatePlaylist();
+            PopulatePlaylist(enableReadDirPlayList);
             return fi.fileName();
         }
     }
@@ -888,10 +888,16 @@ void MpvHandler::OpenFile(QString f)
     Command(args);
 }
 
-QString MpvHandler::PopulatePlaylist()
+bool MpvHandler::getIsLoadPlayList()
 {
-    /*if(path != "")
+    return isLoadPlayList;
+}
+
+QString MpvHandler::PopulatePlaylist(bool enableReadDirPlayList)
+{
+    if(path != "" && enableReadDirPlayList)
     {
+        isLoadPlayList = true;
         QStringList playlist;
         QDir root(path);
         QStringList filter = Mpv::media_filetypes;
@@ -905,7 +911,7 @@ QString MpvHandler::PopulatePlaylist()
         if(playlist.empty())
             return QString();
         return playlist.first();
-    }*/
+    }
     return QString();
 }
 

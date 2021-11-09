@@ -412,45 +412,6 @@ QPushButton:flat:pressed {
              </property>
             </spacer>
            </item>
-           <item>
-            <widget class="QPushButton" name="refreshButton">
-             <property name="cursor">
-              <cursorShape>PointingHandCursor</cursorShape>
-             </property>
-             <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
-             </property>
-             <property name="toolTip">
-              <string>Refresh Playlist</string>
-             </property>
-             <property name="styleSheet">
-              <string notr="true">QPushButton {
-	padding: 2px;
-	margin: 1px;
-}
-QPushButton:flat {
-    border: none; /* no border for a flat push button */
-}
-QPushButton:flat:pressed {
-	background: #383838;
-	border-radius: 2px;
-}</string>
-             </property>
-             <property name="icon">
-              <iconset resource="../rsclist.qrc">
-               <normaloff>:/img/refresh_view.svg</normaloff>:/img/refresh_view.svg</iconset>
-             </property>
-             <property name="iconSize">
-              <size>
-               <width>12</width>
-               <height>12</height>
-              </size>
-             </property>
-             <property name="flat">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
           </layout>
          </widget>
         </item>
@@ -969,6 +930,49 @@ QSlider::handle:horizontal {
          </property>
         </spacer>
        </item>
+       <item>
+        <widget class="QPushButton" name="playlistButton">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="icon">
+          <iconset resource="../rsclist.qrc">
+           <normaloff>:/img/default_playlist.svg</normaloff>
+           <disabledoff>:/img/disabled_playlist.svg</disabledoff>
+           <disabledon>:/img/disabled_playlist.svg</disabledon>:/img/default_playlist.svg</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>16</width>
+           <height>16</height>
+          </size>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </item>
@@ -1172,6 +1176,7 @@ QSlider::handle:horizontal {
     <property name="title">
      <string>&amp;Settings</string>
     </property>
+    <addaction name="action_Show_Playlist"/>
     <addaction name="action_Hide_Album_Art"/>
     <addaction name="separator"/>
     <addaction name="action_Dim_Lights"/>
@@ -1363,6 +1368,17 @@ QSlider::handle:horizontal {
    </property>
    <property name="text">
     <string>&amp;Jump to Time...</string>
+   </property>
+  </action>
+  <action name="action_Show_Playlist">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Show Playlist</string>
    </property>
   </action>
   <action name="action_Hide_Album_Art">

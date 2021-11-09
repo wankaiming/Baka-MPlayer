@@ -97,7 +97,7 @@ void PlaylistWidget::Populate()
 void PlaylistWidget::RefreshPlaylist()
 {
     refresh = true;
-    baka->mpv->LoadPlaylist(baka->mpv->getPath()+file);
+    baka->mpv->LoadPlaylist(baka->mpv->getPath()+file, true);
 }
 
 QString PlaylistWidget::CurrentItem()

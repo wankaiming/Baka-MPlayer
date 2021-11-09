@@ -69,7 +69,7 @@ void BakaEngine::Load2_0_0()
         QJsonObject entry_json = entry.toObject();
         window->recent.append(Recent(entry_json["path"].toString(), entry_json["title"].toString(), QJsonValueRef2(entry_json["time"]).toInt(0)));
     }
-    window->setMaxRecent(QJsonValueRef2(root["maxRecent"]).toInt(5));
+    window->setMaxRecent(QJsonValueRef2(root["maxRecent"]).toInt(0));//默认不记录播放历史
     window->setGestures(QJsonValueRef2(root["gestures"]).toBool(true));
     window->setResume(QJsonValueRef2(root["resume"]).toBool(true));
     window->setHideAllControls(QJsonValueRef2(root["hideAllControls"]).toBool(false));

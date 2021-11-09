@@ -73,14 +73,14 @@ void BakaEngine::BakaOpenLocation(QStringList &args)
 
 void BakaEngine::OpenLocation()
 {
-    mpv->LoadFile(LocationDialog::getUrl(mpv->getPath()+mpv->getFile(), window));
+    mpv->LoadFile(LocationDialog::getUrl(mpv->getPath()+mpv->getFile(), window), false);
 }
 
 
 void BakaEngine::BakaOpenClipboard(QStringList &args)
 {
     if(args.empty())
-        mpv->LoadFile(QApplication::clipboard()->text());
+        mpv->LoadFile(QApplication::clipboard()->text(), false);
     else
         InvalidParameter(args.join(' '));
 }
@@ -189,7 +189,7 @@ void BakaEngine::BakaStop(QStringList &args)
 
 void BakaEngine::BakaPlaylist(QStringList &args)
 {
-    /*if(!args.empty())
+    if(!args.empty())
     {
         QString arg = args.front();
         args.pop_front();
@@ -289,7 +289,7 @@ void BakaEngine::BakaPlaylist(QStringList &args)
     else
         RequiresParameters("baka playlist");
 	
-	*/
+
 }
 
 void BakaEngine::BakaJump(QStringList &args)
@@ -380,7 +380,7 @@ void BakaEngine::BakaOpen(QStringList &args)
     if(args.empty())
         Open();
     else
-        mpv->LoadFile(args.join(' '));
+        mpv->LoadFile(args.join(' '), false);
 }
 
 void BakaEngine::Open()
@@ -391,7 +391,7 @@ void BakaEngine::Open()
                    QString("%0 (%1);;").arg(tr("Video Files"), Mpv::video_filetypes.join(" "))+
                    QString("%0 (%1);;").arg(tr("Audio Files"), Mpv::audio_filetypes.join(" "))+
                    QString("%0 (*.*)").arg(tr("All Files")),
-                   0, QFileDialog::DontUseSheet));
+                   0, QFileDialog::DontUseSheet), false);
 }
 
 

@@ -77,7 +77,7 @@ MainWindow::MainWindow(QWidget *parent):
         {"playlist repeat playlist", ui->action_Playlist},
         {"playlist repeat this", ui->action_This_File},
         {"playlist shuffle", ui->actionSh_uffle},
-        //{"playlist toggle", ui->action_Show_Playlist},
+        {"playlist toggle", ui->action_Show_Playlist},
         {"playlist full", ui->action_Hide_Album_Art},
         {"dim", ui->action_Dim_Lights},
         {"play_pause", ui->action_Play},
@@ -247,7 +247,8 @@ MainWindow::MainWindow(QWidget *parent):
                 {
                     ui->actionSh_uffle->setEnabled(true);
                     ui->actionStop_after_Current->setEnabled(true);
-                    ShowPlaylist(true);
+                    //文件列表发生改变时，不显示播放列表，提升播放器打开速度，点击显示播放列表时才去加载文件列表
+					//ShowPlaylist(true);
                 }
                 else
                 {
@@ -502,8 +503,8 @@ MainWindow::MainWindow(QWidget *parent):
 #if defined(Q_OS_WIN)
                         playpause_toolbutton->setEnabled(true);
 #endif
-                        //ui->playlistButton->setEnabled(true);
-                        //ui->action_Show_Playlist->setEnabled(true);
+                        ui->playlistButton->setEnabled(true);
+                        ui->action_Show_Playlist->setEnabled(true);
                         ui->menuAudio_Tracks->setEnabled(true);
                         init = true;
                     }
@@ -735,11 +736,11 @@ MainWindow::MainWindow(QWidget *parent):
                 mpv->Volume(i, true);
             });
 
-    /*connect(ui->playlistButton, &QPushButton::clicked,                  // Playback: Clicked the playlist button
+    connect(ui->playlistButton, &QPushButton::clicked,                  // Playback: Clicked the playlist button
             [=]
             {
                 TogglePlaylist();
-            });*/
+            });
 
     connect(ui->splitter, &CustomSplitter::positionChanged,             // Splitter position changed
             [=](int i)
@@ -747,22 +748,22 @@ MainWindow::MainWindow(QWidget *parent):
                 blockSignals(true);
                 if(i == 0) // right-most, playlist is hidden
                 {
-                    //ui->action_Show_Playlist->setChecked(false);
+                    ui->action_Show_Playlist->setChecked(false);
                     ui->action_Hide_Album_Art->setChecked(false);
                     ui->playlistLayoutWidget->setVisible(false);
                 }
                 else if(i == ui->splitter->max()) // left-most, album art is hidden, playlist is visible
                 {
-                    //ui->action_Show_Playlist->setChecked(true);
+                    ui->action_Show_Playlist->setChecked(true);
                     ui->action_Hide_Album_Art->setChecked(true);
                 }
                 else // in the middle, album art is visible, playlist is visible
                 {
-                    //ui->action_Show_Playlist->setChecked(true);
+                    ui->action_Show_Playlist->setChecked(true);
                     ui->action_Hide_Album_Art->setChecked(false);
                 }
-                //ui->playlistLayoutWidget->setVisible(ui->action_Show_Playlist->isChecked());
-                ui->playlistLayoutWidget->setVisible(false);
+                ui->playlistLayoutWidget->setVisible(ui->action_Show_Playlist->isChecked());
+                //ui->playlistLayoutWidget->setVisible(false);
                 blockSignals(false);
                 if(ui->actionMedia_Info->isChecked())
                     baka->overlay->showInfoText();
@@ -803,11 +804,11 @@ MainWindow::MainWindow(QWidget *parent):
                 ui->playlistWidget->SelectIndex(ui->playlistWidget->CurrentIndex());
             });
 
-    connect(ui->refreshButton, &QPushButton::clicked,                   // Playlist: Refresh playlist button
+    /*connect(ui->refreshButton, &QPushButton::clicked,                   // Playlist: Refresh playlist button
             [=]
             {
                 ui->playlistWidget->RefreshPlaylist();
-            });
+            });*/
 
     connect(ui->inputLineEdit, &CustomLineEdit::submitted,
             [=](QString s)
@@ -897,7 +898,7 @@ void MainWindow::Load(QString file)
 #endif
     baka->LoadSettings();
     mpv->Initialize();
-    mpv->LoadFile(file);
+    mpv->LoadFile(file, false);
 }
 
 void MainWindow::MapShortcuts()
@@ -920,7 +921,7 @@ void MainWindow::MapShortcuts()
 
 void MainWindow::playFile(QString file)
 {
-    mpv->LoadFile(file);
+    mpv->LoadFile(file, false);
 }
 
 void MainWindow::dragEnterEvent(QDragEnterEvent *event)
@@ -937,13 +938,13 @@ void MainWindow::dropEvent(QDropEvent *event)
         for(QUrl &url : mimeData->urls())
         {
             if(url.isLocalFile())
-                mpv->LoadFile(url.toLocalFile());
+                mpv->LoadFile(url.toLocalFile(), false);
             else
-                mpv->LoadFile(url.url());
+                mpv->LoadFile(url.url(), false);
         }
     }
     else if(mimeData->hasText()) // text
-        mpv->LoadFile(mimeData->text());
+        mpv->LoadFile(mimeData->text(), false);
 }
 
 void MainWindow::mousePressEvent(QMouseEvent *event)
@@ -1203,6 +1204,11 @@ bool MainWindow::isPlaylistVisible()
 void MainWindow::TogglePlaylist()
 {
     ShowPlaylist(!isPlaylistVisible());
+
+    //第一次显示播放列表的时候，才去读取文件夹的播放列表
+    if(!mpv->getIsLoadPlayList()){
+        ui->playlistWidget->RefreshPlaylist();
+    }
 }
 
 void MainWindow::ShowPlaylist(bool visible)
@@ -1247,7 +1253,7 @@ void MainWindow::UpdateRecentFiles()
         connect(action, &QAction::triggered,
                 [=]
                 {
-                    mpv->LoadFile(f);
+                    mpv->LoadFile(f, false);
                 });
     }
 }

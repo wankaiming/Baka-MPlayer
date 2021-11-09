@@ -52,8 +52,10 @@ protected:
     bool FileExists(QString);
 
 public slots:
-    void LoadFile(QString);
-    QString LoadPlaylist(QString);
+    bool getIsLoadPlayList();
+	QString PopulatePlaylist(bool);
+    void LoadFile(QString,bool);
+    QString LoadPlaylist(QString,bool);
     bool PlayFile(QString);
 
     void AddOverlay(int id, int x, int y, QString file, int offset, int w, int h);
@@ -114,7 +116,7 @@ public slots:
 
 protected slots:
     void OpenFile(QString);
-    QString PopulatePlaylist();
+    
     void LoadFileInfo();
     void SetProperties();
 
@@ -198,7 +200,8 @@ private:
     bool        init = false,
                 playlistVisible = false,
                 subtitleVisibility = true,
-                mute = false;
+                mute = false,
+                isLoadPlayList = false;
     int         osdWidth,
                 osdHeight;
 };
