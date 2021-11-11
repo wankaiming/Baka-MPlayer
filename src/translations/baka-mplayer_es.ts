@@ -598,10 +598,6 @@
         <translation>Buscar en lista de reproducción</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Seleccionar fichero actual</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Actualizar lista de reproducción</translation>
     </message>
@@ -1013,6 +1009,10 @@ Nota: El valor debe estar en el rango %0 - %1</translation>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

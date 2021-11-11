@@ -598,10 +598,6 @@
         <translation>Cerca nella scaletta</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Seleziona file corrente</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Aggiorna scaletta</translation>
     </message>
@@ -1013,6 +1009,10 @@ Nota: Il valore deve essere compreso tra %0 e %1</translation>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

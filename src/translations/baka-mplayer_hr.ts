@@ -598,10 +598,6 @@
         <translation type="unfinished">Pretraži popis izvođenja</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation type="unfinished">Odaberi trenutnu datoteku</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation type="unfinished">Osvježi popis izvođenja</translation>
     </message>
@@ -1013,6 +1009,10 @@ Napomena: vrijednost mora biti %0 - %1</translation>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

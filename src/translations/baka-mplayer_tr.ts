@@ -598,10 +598,6 @@
         <translation>Oynatma Listesinde Ara</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Geçerli dosyayı seç</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Oynatma Listesini Yenile</translation>
     </message>
@@ -1012,6 +1008,10 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

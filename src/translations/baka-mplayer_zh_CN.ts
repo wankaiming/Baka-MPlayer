@@ -598,10 +598,6 @@
         <translation>搜索播放列表</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>选择当前文件</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>刷新播放列表</translation>
     </message>
@@ -1013,6 +1009,10 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

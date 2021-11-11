@@ -598,10 +598,6 @@
         <translation>Wiedergabeliste durchsuchen</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Aktuelle Datei auswählen</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Wiedergabeliste aktualisieren</translation>
     </message>
@@ -1014,6 +1010,10 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -598,10 +598,6 @@
         <translation>Zoek Afspeellijst</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Selecteer het Huidige Bestand</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Ververs Afspeellijst</translation>
     </message>
@@ -1013,6 +1009,10 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

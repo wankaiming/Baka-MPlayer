@@ -599,10 +599,6 @@
         <translation>Tìm trong danh sách</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Chọn tập tin hiện tại</translation>
-    </message>
-    <message>
         <source>Click to play a specific file by index</source>
         <translation>Bấm để phát một tập tin chỉ định theo chỉ mục</translation>
     </message>
@@ -1015,6 +1011,10 @@ Lưu ý: Giá trị phải trong khoảng từ %0 - %1</translation>
     <message>
         <source>Pause</source>
         <translation>Tạm dừng</translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -598,10 +598,6 @@
         <translation>검색</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>현재 파일 선택</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>재생 목록 다시 불러오기</translation>
     </message>
@@ -1013,6 +1009,10 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>%0 / %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

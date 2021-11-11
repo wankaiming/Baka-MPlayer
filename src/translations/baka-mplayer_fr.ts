@@ -599,10 +599,6 @@
         <translation>Rechercher une liste de lecture</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Sélectionner le fichier courant</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Rafraichir la liste de lecture</translation>
     </message>
@@ -1015,6 +1011,10 @@ Information : la valeur doit être comprise entre %0 et %1</translation>
     <message>
         <source>Unmuted</source>
         <translation>Son activé</translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

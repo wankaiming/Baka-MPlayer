@@ -602,10 +602,6 @@
         <translation>Procurar Lista de Reprodução</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Selecionar Arquivo Atual</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Atualizar Lista de Reprodução</translation>
     </message>
@@ -1021,6 +1017,10 @@ Aviso: O valor deve estar entre %0 - %1</translation>
     <message>
         <source>Pause</source>
         <translation>Pausar</translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

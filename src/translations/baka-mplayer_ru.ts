@@ -599,10 +599,6 @@
         <translation>Искать в списке воспроизведения</translation>
     </message>
     <message>
-        <source>Select the Current File</source>
-        <translation>Выбрать текущий файл</translation>
-    </message>
-    <message>
         <source>Refresh Playlist</source>
         <translation>Обновить список воспроизведения</translation>
     </message>
@@ -1014,6 +1010,10 @@ Note: Value must be from %0 - %1</source>
     <message>
         <source>Unmuted</source>
         <translation>Звук включен</translation>
+    </message>
+    <message>
+        <source>&amp;Show Playlist</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
