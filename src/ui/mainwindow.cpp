@@ -441,7 +441,7 @@ MainWindow::MainWindow(QWidget *parent):
                     if(pathChanged && autoFit)
                     {
                         baka->FitWindow(autoFit, false);
-                        pathChanged = false;
+                        //pathChanged = false; 让窗口每次播放时都调整大小，不要固定
                     }
                 }
             });
@@ -798,17 +798,17 @@ MainWindow::MainWindow(QWidget *parent):
                 SetIndexLabels(true);
             });
 
-    connect(ui->currentFileButton, &QPushButton::clicked,               // Playlist: Select current file button
+    /*connect(ui->currentFileButton, &QPushButton::clicked,               // Playlist: Select current file button
             [=]
             {
                 ui->playlistWidget->SelectIndex(ui->playlistWidget->CurrentIndex());
-            });
+            });*/
 
-    /*connect(ui->refreshButton, &QPushButton::clicked,                   // Playlist: Refresh playlist button
+    connect(ui->refreshButton, &QPushButton::clicked,                   // Playlist: Refresh playlist button
             [=]
             {
                 ui->playlistWidget->RefreshPlaylist();
-            });*/
+            });
 
     connect(ui->inputLineEdit, &CustomLineEdit::submitted,
             [=](QString s)
