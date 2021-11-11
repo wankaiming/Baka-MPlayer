@@ -904,7 +904,7 @@ QString MpvHandler::PopulatePlaylist(bool enableReadDirPlayList)
         if(path != QString() && file != QString())
             filter.append(QString("*.%1").arg(file.split(".").last()));
         QFileInfoList flist;
-        flist = root.entryInfoList(filter, QDir::Files);
+        flist = root.entryInfoList(filter, QDir::Files, QDir::Name);
         for(auto &i : flist)
             playlist.push_back(i.fileName()); // add files to the list
         setPlaylist(playlist);
