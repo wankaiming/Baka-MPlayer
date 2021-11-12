@@ -6,6 +6,7 @@
 #include <QFileInfo>
 #include <QFileInfoList>
 #include <QDateTime>
+#include <QCollator>
 
 #include "bakaengine.h"
 #include "overlayhandler.h"
@@ -897,6 +898,9 @@ QString MpvHandler::PopulatePlaylist(bool enableReadDirPlayList)
 {
     if(path != "" && enableReadDirPlayList)
     {
+        QLocale local(QLocale::Chinese);
+        QCollator collator(local);
+
         isLoadPlayList = true;
         QStringList playlist;
         QDir root(path);
@@ -907,6 +911,8 @@ QString MpvHandler::PopulatePlaylist(bool enableReadDirPlayList)
         flist = root.entryInfoList(filter, QDir::Files, QDir::Name);
         for(auto &i : flist)
             playlist.push_back(i.fileName()); // add files to the list
+
+        std::sort(playlist.begin(), playlist.end(), collator);
         setPlaylist(playlist);
         if(playlist.empty())
             return QString();
