@@ -1206,7 +1206,8 @@ void MainWindow::TogglePlaylist()
     ShowPlaylist(!isPlaylistVisible());
 
     //第一次显示播放列表的时候，才去读取文件夹的播放列表
-    if(!mpv->getIsLoadPlayList()){
+    if(!mpv->getIsLoadPlayList())
+    {
         ui->playlistWidget->RefreshPlaylist();
     }
 }
@@ -1217,7 +1218,15 @@ void MainWindow::ShowPlaylist(bool visible)
         return;
 
     if(visible)
+    {
+        //第一次显示播放列表的时候，才去读取文件夹的播放列表
+        if(!mpv->getIsLoadPlayList())
+        {
+            ui->playlistWidget->RefreshPlaylist();
+        }
+
         ui->splitter->setPosition(ui->splitter->normalPosition()); // bring splitter position to normal
+    }
     else
     {
         if(ui->splitter->position() != ui->splitter->max() && ui->splitter->position() != 0)
