@@ -818,6 +818,10 @@
         <translation>当前播放完毕后停止(&amp;C)</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>显示播放列表(&amp;S)</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>昏暗灯光(&amp;D)</translation>
     </message>
@@ -1009,10 +1013,6 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

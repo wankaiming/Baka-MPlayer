@@ -818,6 +818,10 @@
         <translation>현재 파일만 재생하기(&amp;C)</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>재생목록 보이기(&amp;S)</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>불 끄기(&amp;D)</translation>
     </message>
@@ -1009,10 +1013,6 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

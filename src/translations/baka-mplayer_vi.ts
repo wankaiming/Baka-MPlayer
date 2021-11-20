@@ -779,6 +779,10 @@
         <translation>Đ&amp;i tới...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>Hiện &amp;danh sách phát</translation>
+    </message>
+    <message>
         <source>Hide &amp;Album Art</source>
         <translation>Hiện ảnh &amp;bìa album</translation>
     </message>
@@ -1011,10 +1015,6 @@ Lưu ý: Giá trị phải trong khoảng từ %0 - %1</translation>
     <message>
         <source>Pause</source>
         <translation>Tạm dừng</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

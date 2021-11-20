@@ -770,6 +770,10 @@
         <translation>დროზე &amp;გადახტომა...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>დასაკრავი სიის &amp;ჩვენება</translation>
+    </message>
+    <message>
         <source>Hide &amp;Album Art</source>
         <translation>&amp;ალბომის გარეკნის დამალვა</translation>
     </message>
@@ -1009,10 +1013,6 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

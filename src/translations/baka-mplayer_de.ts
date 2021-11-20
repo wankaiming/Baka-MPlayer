@@ -766,6 +766,10 @@
         <translation>&amp;Springe zu...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>&amp;Wiedergabeliste anzeigen</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>&amp;Licht aus</translation>
     </message>
@@ -1010,10 +1014,6 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

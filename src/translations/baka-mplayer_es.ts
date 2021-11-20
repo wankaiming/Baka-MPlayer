@@ -822,6 +822,10 @@
         <translation>Saltar al &amp;minuto...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>Mostrar &amp;lista de reproducción</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>Atenuar lu&amp;ces</translation>
     </message>
@@ -1009,10 +1013,6 @@ Nota: El valor debe estar en el rango %0 - %1</translation>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

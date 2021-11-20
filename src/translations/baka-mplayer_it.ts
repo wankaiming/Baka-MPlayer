@@ -758,6 +758,10 @@
         <translation>Salta a &amp;tempo...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>&amp;Mostra scaletta</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>Abbassa le &amp;luci</translation>
     </message>
@@ -1009,10 +1013,6 @@ Nota: Il valore deve essere compreso tra %0 e %1</translation>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

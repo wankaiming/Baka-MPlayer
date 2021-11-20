@@ -775,6 +775,10 @@
         <translation>Sauter au &amp;temps...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>&amp;Afficher la liste de lecture</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>&amp;Diminuer la luminosité</translation>
     </message>
@@ -1011,10 +1015,6 @@ Information : la valeur doit être comprise entre %0 et %1</translation>
     <message>
         <source>Unmuted</source>
         <translation>Son activé</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

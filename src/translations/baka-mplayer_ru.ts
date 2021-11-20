@@ -771,6 +771,10 @@
         <translation>Перейти &amp;ко времени...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>Показать &amp;список воспроизведения</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>&amp;Приглушить освещение</translation>
     </message>
@@ -1010,10 +1014,6 @@ Note: Value must be from %0 - %1</source>
     <message>
         <source>Unmuted</source>
         <translation>Звук включен</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

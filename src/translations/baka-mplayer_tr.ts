@@ -758,6 +758,10 @@
         <translation>Zamana Atla...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>&amp;Oynatma Listesini Göster</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>Loş Işık</translation>
     </message>
@@ -1008,10 +1012,6 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -766,6 +766,10 @@
         <translation>&amp;Spring naar Tijd...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>&amp;Weergeef Afspeellijst</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>&amp;Dim Lichten</translation>
     </message>
@@ -1009,10 +1013,6 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -821,6 +821,10 @@
         <translation>&amp;Parar Reprodução Após o Arquivo Atual</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation>&amp;Exibir Lista de Reprodução</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation>Escurecer Ambie&amp;nte</translation>
     </message>
@@ -1017,10 +1021,6 @@ Aviso: O valor deve estar entre %0 - %1</translation>
     <message>
         <source>Pause</source>
         <translation>Pausar</translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

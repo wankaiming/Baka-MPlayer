@@ -758,6 +758,10 @@
         <translation type="unfinished">&amp;Premotaj u vrijeme...</translation>
     </message>
     <message>
+        <source>&amp;Show Playlist</source>
+        <translation type="unfinished">&amp;Prikaži popis izvođenja</translation>
+    </message>
+    <message>
         <source>&amp;Dim Lights</source>
         <translation type="unfinished">&amp;Zatamnjenje osvjetljenja</translation>
     </message>
@@ -1009,10 +1013,6 @@ Napomena: vrijednost mora biti %0 - %1</translation>
     </message>
     <message>
         <source>%0 / %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Show Playlist</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
