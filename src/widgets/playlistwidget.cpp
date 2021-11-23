@@ -62,6 +62,12 @@ void PlaylistWidget::AttachEngine(BakaEngine *baka)
             {
                 PlayIndex(i.row());
             });
+
+    connect(this, &PlaylistWidget::clicked,
+            [=](const QModelIndex &i)
+            {
+                PlayIndex(i.row());
+            });
 }
 
 void PlaylistWidget::Populate()
