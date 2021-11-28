@@ -174,8 +174,7 @@ SOURCES += main.cpp\
     ui/updatedialog.cpp \
     ui/keydialog.cpp \
     overlay.cpp \
-    versions/2_0_0.cpp \
-    singleapplication.cpp
+    versions/2_0_0.cpp
 
 HEADERS  += \
     bakaengine.h \
@@ -205,8 +204,7 @@ HEADERS  += \
     ui/screenshotdialog.h \
     ui/updatedialog.h \
     ui/keydialog.h \
-    recent.h \
-    singleapplication.h
+    recent.h
 
 FORMS    += \
     ui/aboutdialog.ui \
