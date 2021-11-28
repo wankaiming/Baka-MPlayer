@@ -766,6 +766,10 @@ MainWindow::MainWindow(QWidget *parent):
                 }
                 ui->playlistLayoutWidget->setVisible(ui->action_Show_Playlist->isChecked());
                 //ui->playlistLayoutWidget->setVisible(false);
+				
+                if(ui->splitter->position() != ui->splitter->max() && ui->splitter->position() != 0)
+                    ui->splitter->setNormalPosition(ui->splitter->position()); // save current splitter position as the normal position
+       
                 blockSignals(false);
                 if(ui->actionMedia_Info->isChecked())
                     baka->overlay->showInfoText();
@@ -1231,8 +1235,8 @@ void MainWindow::ShowPlaylist(bool visible)
     }
     else
     {
-        if(ui->splitter->position() != ui->splitter->max() && ui->splitter->position() != 0)
-            ui->splitter->setNormalPosition(ui->splitter->position()); // save current splitter position as the normal position
+        //if(ui->splitter->position() != ui->splitter->max() && ui->splitter->position() != 0)
+            //ui->splitter->setNormalPosition(ui->splitter->position()); // save current splitter position as the normal position
         ui->splitter->setPosition(0); // set splitter position to right-most
         setFocus();
     }
