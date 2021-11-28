@@ -92,7 +92,7 @@ bool UpdateManager::DownloadUpdate(const QString &url)
     QFile *file = new QFile(filename);
     if(!file->open(QFile::WriteOnly | QFile::Truncate))
     {
-        emit messageSignal(tr("fopen error\n"));
+        emit messageSignal(tr("fopen error"));
         delete file;
         busy = false;
         return false;

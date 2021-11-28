@@ -1525,9 +1525,8 @@ Version : %0</translation>
         <translation>Terminé. Redémarrage...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>erreur de &apos;fopen&apos;</translation>
     </message>
 </context>
 </TS>

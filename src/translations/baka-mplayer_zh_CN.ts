@@ -1524,9 +1524,8 @@ Version: %0</source>
         <translation>完成,正在重新启动...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>打开文件失败</translation>
     </message>
 </context>
 </TS>

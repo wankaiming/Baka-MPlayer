@@ -1524,9 +1524,8 @@ Inačica: %0</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>greška otvaranja</translation>
     </message>
 </context>
 </TS>

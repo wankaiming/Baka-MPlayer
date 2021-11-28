@@ -1525,9 +1525,8 @@ Version: %0</translation>
         <translation>Abgeschlossen. Starte neu...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>fopen error</translation>
     </message>
 </context>
 </TS>

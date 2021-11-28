@@ -1523,9 +1523,8 @@ Sürüm: %0</translation>
         <translation>Bitti. Yeniden başlatılıyor ...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation></translation>
     </message>
 </context>
 </TS>

@@ -1523,9 +1523,8 @@ Version: %0</source>
         <translation>Klaar. Herstarten...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation></translation>
     </message>
 </context>
 </TS>

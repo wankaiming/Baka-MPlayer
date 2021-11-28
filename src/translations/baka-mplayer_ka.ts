@@ -1524,9 +1524,8 @@ Version: %0</source>
         <translation>დასრულდა. გადატვირთვა...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>fopen error</translation>
     </message>
 </context>
 </TS>

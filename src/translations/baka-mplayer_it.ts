@@ -1524,9 +1524,8 @@ Versione: %0</translation>
         <translation>Fatto. Riavvio in corso...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>errore fopen</translation>
     </message>
 </context>
 </TS>

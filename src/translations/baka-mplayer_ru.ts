@@ -1524,9 +1524,8 @@ Version: %0</source>
         <translation>Готово. Перезапуск...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation></translation>
     </message>
 </context>
 </TS>

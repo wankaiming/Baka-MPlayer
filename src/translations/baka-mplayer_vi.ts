@@ -1525,9 +1525,8 @@ Phiên bản: %0</translation>
         <translation>Hoàn thành. Đang khởi chạy lại...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>mở file lỗi (fopen)</translation>
     </message>
 </context>
 </TS>

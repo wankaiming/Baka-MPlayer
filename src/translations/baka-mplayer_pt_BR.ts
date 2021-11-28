@@ -1536,9 +1536,8 @@ Versão: %0</translation>
         <translation>Pronto. Reiniciando...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>fopen(): erro</translation>
     </message>
 </context>
 </TS>

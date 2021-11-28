@@ -1524,9 +1524,8 @@ Version: %0</source>
         <translation>완료됨. 다시 시작중...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation type="unfinished"></translation>
+        <source>fopen error</source>
+        <translation>fopen error</translation>
     </message>
 </context>
 </TS>
