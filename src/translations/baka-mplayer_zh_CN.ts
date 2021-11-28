@@ -548,7 +548,7 @@
         <translation>标签</translation>
     </message>
     <message>
-        <source>Chang&amp;e</source>
+        <source>&amp;Change</source>
         <translation>更改</translation>
     </message>
     <message>
@@ -560,7 +560,7 @@
         <translation>取消</translation>
     </message>
     <message>
-        <source>C&amp;lear Shortcut</source>
+        <source>&amp;Clear Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -630,23 +630,23 @@
         <translation>视图(&amp;V)</translation>
     </message>
     <message>
-        <source>Fit &amp;Window</source>
+        <source>&amp;Fit Window</source>
         <translation>适应窗口大小(&amp;W)</translation>
     </message>
     <message>
-        <source>Aspect &amp;Ratio</source>
+        <source>&amp;Aspect Ratio</source>
         <translation>高宽比(&amp;R)</translation>
     </message>
     <message>
-        <source>Subtitle &amp;Track</source>
+        <source>&amp;Subtitle Track</source>
         <translation>字幕轨道(&amp;T)</translation>
     </message>
     <message>
-        <source>Font Si&amp;ze</source>
+        <source>&amp;Font Size</source>
         <translation>字体大小(&amp;Z)</translation>
     </message>
     <message>
-        <source>Take &amp;Screenshot</source>
+        <source>&amp;Take Screenshot</source>
         <translation>截图(&amp;S)</translation>
     </message>
     <message>
@@ -654,15 +654,15 @@
         <translation>播放(&amp;P)</translation>
     </message>
     <message>
-        <source>R&amp;epeat</source>
+        <source>&amp;Repeat</source>
         <translation>重复(&amp;E)</translation>
     </message>
     <message>
-        <source>Audio &amp;Tracks</source>
+        <source>&amp;Audio Tracks</source>
         <translation>音频轨道(&amp;T)</translation>
     </message>
     <message>
-        <source>Spee&amp;d</source>
+        <source>&amp;Speed</source>
         <translation>速度</translation>
     </message>
     <message>
@@ -694,19 +694,19 @@
         <translation>帮助(&amp;H)</translation>
     </message>
     <message>
-        <source>Open &amp;Location...</source>
+        <source>&amp;Open Location...</source>
         <translation>打开路径</translation>
     </message>
     <message>
-        <source>Open &amp;Copied Link</source>
+        <source>&amp;Open Copied Link</source>
         <translation>打开已复制的链接</translation>
     </message>
     <message>
-        <source>Pla&amp;y Next File</source>
+        <source>&amp;Play Next File</source>
         <translation>播放下一个文件</translation>
     </message>
     <message>
-        <source>Hide &amp;Album Art</source>
+        <source>&amp;Hide Album Art</source>
         <translation>隐藏专辑封面</translation>
     </message>
     <message>
@@ -726,7 +726,7 @@
         <translation>降低 0.1%</translation>
     </message>
     <message>
-        <source>15&amp;0%</source>
+        <source>&amp;150%</source>
         <translation>150%</translation>
     </message>
     <message>
@@ -746,7 +746,7 @@
         <translation>反交错</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
+        <source>&amp;Exit</source>
         <translation>离开(&amp;X)</translation>
     </message>
     <message>
@@ -766,11 +766,11 @@
         <translation>200%</translation>
     </message>
     <message>
-        <source>[ &amp;none ]</source>
+        <source>[ none ]</source>
         <translation>[无]</translation>
     </message>
     <message>
-        <source>Show &amp;Command Line</source>
+        <source>&amp;Show Command Line</source>
         <translation>显示命令行</translation>
     </message>
     <message>
@@ -782,11 +782,11 @@
         <translation>打开文件(&amp;O)...</translation>
     </message>
     <message>
-        <source>Show in &amp;Folder</source>
+        <source>&amp;Show in Folder</source>
         <translation>在文件夹中显示(&amp;F)</translation>
     </message>
     <message>
-        <source>Play &amp;Previous File</source>
+        <source>&amp;Play Previous File</source>
         <translation>播放前一个文件(&amp;P)</translation>
     </message>
     <message>
@@ -794,7 +794,7 @@
         <translation>全屏(&amp;F)</translation>
     </message>
     <message>
-        <source>Show S&amp;ubtitles</source>
+        <source>&amp;Show Subtitles</source>
         <translation>显示字幕(&amp;U)</translation>
     </message>
     <message>
@@ -810,11 +810,11 @@
         <translation>重新开始(&amp;R)</translation>
     </message>
     <message>
-        <source>Sh&amp;uffle</source>
+        <source>&amp;Shuffle</source>
         <translation>随机顺序(&amp;U)</translation>
     </message>
     <message>
-        <source>Stop after &amp;Current</source>
+        <source>&amp;Stop after Current</source>
         <translation>当前播放完毕后停止(&amp;C)</translation>
     </message>
     <message>
@@ -838,7 +838,7 @@
         <translation>逐帧播放(&amp;F)</translation>
     </message>
     <message>
-        <source>Frame &amp;Back Step</source>
+        <source>&amp;Frame Back Step</source>
         <translation>向后逐帧(&amp;F)</translation>
     </message>
     <message>
@@ -846,7 +846,7 @@
         <translation>跳转到时间(&amp;J)...</translation>
     </message>
     <message>
-        <source>Online &amp;Help</source>
+        <source>&amp;Online Help</source>
         <translation>在线帮助(&amp;H)</translation>
     </message>
     <message>
@@ -854,15 +854,15 @@
         <translation>检查更新(&amp;C)</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
+        <source>&amp;About Qt</source>
         <translation>关于Qt(&amp;Q)</translation>
     </message>
     <message>
-        <source>About &amp;Baka MPlayer</source>
+        <source>&amp;About Baka MPlayer</source>
         <translation>关于 Baka MPlayer (&amp;B)</translation>
     </message>
     <message>
-        <source>To &amp;Current Size</source>
+        <source>&amp;To Current Size</source>
         <translation>到当前尺寸(&amp;C)</translation>
     </message>
     <message>
@@ -870,16 +870,16 @@
         <translation>自动探测(&amp;A)</translation>
     </message>
     <message>
-        <source>Force &amp;4:3</source>
-        <translation>强制 &amp;4:3</translation>
+        <source>&amp;Force 4:3</source>
+        <translation>强制 4:3</translation>
     </message>
     <message>
-        <source>Force 16:&amp;9</source>
-        <translation>强制 16:&amp;9</translation>
+        <source>&amp;Force 16:9</source>
+        <translation>强制 16:9</translation>
     </message>
     <message>
-        <source>Force &amp;2.35:1</source>
-        <translation>强制 &amp;2.35:1</translation>
+        <source>&amp;Force 2.35:1</source>
+        <translation>强制 2.35:1</translation>
     </message>
     <message>
         <source>&amp;Add Subtitle File...</source>
@@ -890,7 +890,7 @@
         <translation>尺寸(&amp;S) +</translation>
     </message>
     <message>
-        <source>S&amp;ize -</source>
+        <source>&amp;Size -</source>
         <translation>尺寸(&amp;S) -</translation>
     </message>
     <message>
@@ -980,11 +980,11 @@ Note: Value must be from %0 - %1</source>
         <translation>速度: %0x</translation>
     </message>
     <message>
-        <source>Update &amp;Streaming Support</source>
+        <source>&amp;Update Streaming Support</source>
         <translation>更新流媒体支持</translation>
     </message>
     <message>
-        <source>Show Playback &amp;Info</source>
+        <source>&amp;Show Playback Info</source>
         <translation>显示播放信息</translation>
     </message>
     <message>
@@ -1221,7 +1221,7 @@ Note: Value must be from %0 - %1</source>
         <translation>截图</translation>
     </message>
     <message>
-        <source>Chang&amp;e...</source>
+        <source>&amp;Change...</source>
         <translation>更改</translation>
     </message>
     <message>
@@ -1261,11 +1261,11 @@ Note: Value must be from %0 - %1</source>
         <translation>历史</translation>
     </message>
     <message>
-        <source>Remember &amp;recently opened files up to</source>
+        <source>&amp;Remember recently opened files up to</source>
         <translation>记住最近播放的文件个数</translation>
     </message>
     <message>
-        <source>Remember playback &amp;position</source>
+        <source>&amp;Remember playback position</source>
         <translation>记住播放位置</translation>
     </message>
     <message>
@@ -1273,7 +1273,7 @@ Note: Value must be from %0 - %1</source>
         <translation>在一个命令前面加上&apos;mpv&apos;以让它作为一个输入命令运行</translation>
     </message>
     <message>
-        <source>Rese&amp;t All</source>
+        <source>&amp;Reset All</source>
         <translation>重置所有快捷键</translation>
     </message>
     <message>
@@ -1333,11 +1333,11 @@ Note: Value must be from %0 - %1</source>
         <translation>%0正在使用，是否更改其函数？</translation>
     </message>
     <message>
-        <source>A&amp;lways</source>
+        <source>&amp;Always</source>
         <translation>总是置顶</translation>
     </message>
     <message>
-        <source>Always show the &amp;save window</source>
+        <source>&amp;Always show the save window</source>
         <translation>总是显示保存对话框</translation>
     </message>
     <message>
@@ -1420,7 +1420,7 @@ Note: Value must be from %0 - %1</source>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Sho&amp;w subtitles</source>
+        <source>&amp;Show subtitles</source>
         <translation>显示字幕(&amp;W)</translation>
     </message>
     <message>
@@ -1488,11 +1488,6 @@ Version: %0</source>
 <context>
     <name>UpdateManager</name>
     <message>
-        <source>fopen error
-</source>
-        <translation>打开文件失败</translation>
-    </message>
-    <message>
         <source>Extracting...</source>
         <translation>正在解压</translation>
     </message>
@@ -1527,6 +1522,11 @@ Version: %0</source>
     <message>
         <source>Done. Restarting...</source>
         <translation>完成,正在重新启动...</translation>
+    </message>
+    <message>
+        <source>fopen error
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

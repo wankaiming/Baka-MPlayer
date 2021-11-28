@@ -549,11 +549,11 @@
         <translation>Метка:</translation>
     </message>
     <message>
-        <source>C&amp;lear Shortcut</source>
+        <source>&amp;Clear Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Chang&amp;e</source>
+        <source>&amp;Change</source>
         <translation>Изменить</translation>
     </message>
     <message>
@@ -631,23 +631,23 @@
         <translation>&amp;Вид</translation>
     </message>
     <message>
-        <source>Fit &amp;Window</source>
+        <source>&amp;Fit Window</source>
         <translation>Подогнать &amp;окно</translation>
     </message>
     <message>
-        <source>Aspect &amp;Ratio</source>
+        <source>&amp;Aspect Ratio</source>
         <translation>Соотношение с&amp;торон</translation>
     </message>
     <message>
-        <source>Subtitle &amp;Track</source>
+        <source>&amp;Subtitle Track</source>
         <translation>Дорожка с&amp;убтитров</translation>
     </message>
     <message>
-        <source>Font Si&amp;ze</source>
+        <source>&amp;Font Size</source>
         <translation>Размер &amp;шрифта</translation>
     </message>
     <message>
-        <source>Take &amp;Screenshot</source>
+        <source>&amp;Take Screenshot</source>
         <translation>Снимок &amp;экрана</translation>
     </message>
     <message>
@@ -655,15 +655,15 @@
         <translation>Во&amp;спроизведение</translation>
     </message>
     <message>
-        <source>R&amp;epeat</source>
+        <source>&amp;Repeat</source>
         <translation>&amp;Повтор</translation>
     </message>
     <message>
-        <source>Audio &amp;Tracks</source>
+        <source>&amp;Audio Tracks</source>
         <translation>Звуковые &amp;дорожки</translation>
     </message>
     <message>
-        <source>Spee&amp;d</source>
+        <source>&amp;Speed</source>
         <translation>С&amp;корость</translation>
     </message>
     <message>
@@ -699,15 +699,15 @@
         <translation>&amp;Открыть файл...</translation>
     </message>
     <message>
-        <source>Show in &amp;Folder</source>
+        <source>&amp;Show in Folder</source>
         <translation>Показать в &amp;папке</translation>
     </message>
     <message>
-        <source>Show &amp;Command Line</source>
+        <source>&amp;Show Command Line</source>
         <translation>Показать &amp;командную строку</translation>
     </message>
     <message>
-        <source>Play &amp;Previous File</source>
+        <source>&amp;Play Previous File</source>
         <translation>Играть п&amp;редыдущий файл</translation>
     </message>
     <message>
@@ -719,7 +719,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
+        <source>&amp;Exit</source>
         <translation>В&amp;ыход</translation>
     </message>
     <message>
@@ -727,7 +727,7 @@
         <translation>&amp;Полный экран</translation>
     </message>
     <message>
-        <source>Show S&amp;ubtitles</source>
+        <source>&amp;Show Subtitles</source>
         <translation>Показать &amp;субтитры</translation>
     </message>
     <message>
@@ -743,11 +743,11 @@
         <translation>&amp;Перезапустить</translation>
     </message>
     <message>
-        <source>Sh&amp;uffle</source>
+        <source>&amp;Shuffle</source>
         <translation>См&amp;ешать</translation>
     </message>
     <message>
-        <source>Stop after &amp;Current</source>
+        <source>&amp;Stop after Current</source>
         <translation>Остановить после &amp;текущего</translation>
     </message>
     <message>
@@ -763,7 +763,7 @@
         <translation>По&amp;кадрово</translation>
     </message>
     <message>
-        <source>Frame &amp;Back Step</source>
+        <source>&amp;Frame Back Step</source>
         <translation>По&amp;кадрово назад</translation>
     </message>
     <message>
@@ -779,7 +779,7 @@
         <translation>&amp;Приглушить освещение</translation>
     </message>
     <message>
-        <source>Online &amp;Help</source>
+        <source>&amp;Online Help</source>
         <translation>&amp;Справка (онлайн)</translation>
     </message>
     <message>
@@ -787,15 +787,15 @@
         <translation>&amp;Проверить на наличие обновлений</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
+        <source>&amp;About Qt</source>
         <translation>О &amp;Qt</translation>
     </message>
     <message>
-        <source>About &amp;Baka MPlayer</source>
+        <source>&amp;About Baka MPlayer</source>
         <translation>О &amp;Baka MPlayer</translation>
     </message>
     <message>
-        <source>To &amp;Current Size</source>
+        <source>&amp;To Current Size</source>
         <translation>К &amp;текущему размеру</translation>
     </message>
     <message>
@@ -803,15 +803,15 @@
         <translation>&amp;Автоматически</translation>
     </message>
     <message>
-        <source>Force &amp;4:3</source>
+        <source>&amp;Force 4:3</source>
         <translation>Принудительно &amp;4:3</translation>
     </message>
     <message>
-        <source>Force 16:&amp;9</source>
+        <source>&amp;Force 16:9</source>
         <translation>Принудительно 16:&amp;9</translation>
     </message>
     <message>
-        <source>Force &amp;2.35:1</source>
+        <source>&amp;Force 2.35:1</source>
         <translation>Принудительно &amp;2.35:1</translation>
     </message>
     <message>
@@ -823,7 +823,7 @@
         <translation>У&amp;величить</translation>
     </message>
     <message>
-        <source>S&amp;ize -</source>
+        <source>&amp;Size -</source>
         <translation>У&amp;меньшить</translation>
     </message>
     <message>
@@ -896,15 +896,15 @@ Note: Value must be from %0 - %1</source>
         <translation></translation>
     </message>
     <message>
-        <source>Open &amp;Location...</source>
+        <source>&amp;Open Location...</source>
         <translation>Открыть &amp;расположение...</translation>
     </message>
     <message>
-        <source>Update &amp;Streaming Support</source>
+        <source>&amp;Update Streaming Support</source>
         <translation></translation>
     </message>
     <message>
-        <source>Show Playback &amp;Info</source>
+        <source>&amp;Show Playback Info</source>
         <translation>Показать &amp;сведения</translation>
     </message>
     <message>
@@ -932,15 +932,15 @@ Note: Value must be from %0 - %1</source>
         <translation>&amp;Громкость</translation>
     </message>
     <message>
-        <source>Open &amp;Copied Link</source>
+        <source>&amp;Open Copied Link</source>
         <translation>Открыть скопированную ссылку</translation>
     </message>
     <message>
-        <source>Pla&amp;y Next File</source>
+        <source>&amp;Play Next File</source>
         <translation>Играть &amp;следующий файл</translation>
     </message>
     <message>
-        <source>Hide &amp;Album Art</source>
+        <source>&amp;Hide Album Art</source>
         <translation>Скрыть обложку альбома</translation>
     </message>
     <message>
@@ -960,7 +960,7 @@ Note: Value must be from %0 - %1</source>
         <translation>&amp;200%</translation>
     </message>
     <message>
-        <source>[ &amp;none ]</source>
+        <source>[ none ]</source>
         <translation>[ &amp;нет ]</translation>
     </message>
     <message>
@@ -980,8 +980,8 @@ Note: Value must be from %0 - %1</source>
         <translation>Уменьшить на 0,1%</translation>
     </message>
     <message>
-        <source>15&amp;0%</source>
-        <translation>15&amp;0%</translation>
+        <source>&amp;150%</source>
+        <translation>&amp;150%</translation>
     </message>
     <message>
         <source>&amp;Mute</source>
@@ -1217,7 +1217,7 @@ Note: Value must be from %0 - %1</source>
         <translation>Снимок экрана</translation>
     </message>
     <message>
-        <source>Chang&amp;e...</source>
+        <source>&amp;Change...</source>
         <translation>Изменить...</translation>
     </message>
     <message>
@@ -1249,11 +1249,11 @@ Note: Value must be from %0 - %1</source>
         <translation>История</translation>
     </message>
     <message>
-        <source>Remember &amp;recently opened files up to</source>
+        <source>&amp;Remember recently opened files up to</source>
         <translation>Помнить недавно открытые файлы в кол-ве</translation>
     </message>
     <message>
-        <source>Remember playback &amp;position</source>
+        <source>&amp;Remember playback position</source>
         <translation>Помнить позицию воспроизведения</translation>
     </message>
     <message>
@@ -1261,7 +1261,7 @@ Note: Value must be from %0 - %1</source>
         <translation>Начните команду с &apos;mpv&apos;, чтобы сделать её командой ввода</translation>
     </message>
     <message>
-        <source>Rese&amp;t All</source>
+        <source>&amp;Reset All</source>
         <translation>Сбросить всё</translation>
     </message>
     <message>
@@ -1313,11 +1313,11 @@ Note: Value must be from %0 - %1</source>
         <translation>%0 уже используется. Хотите изменить на свою функцию?</translation>
     </message>
     <message>
-        <source>A&amp;lways</source>
+        <source>&amp;Always</source>
         <translation>&amp;Всегда</translation>
     </message>
     <message>
-        <source>Always show the &amp;save window</source>
+        <source>&amp;Always show the save window</source>
         <translation>Всегда отображать диалог сохранения</translation>
     </message>
     <message>
@@ -1420,7 +1420,7 @@ Note: Value must be from %0 - %1</source>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Sho&amp;w subtitles</source>
+        <source>&amp;Show subtitles</source>
         <translation>Показыва&amp;ть субтитры</translation>
     </message>
     <message>
@@ -1488,11 +1488,6 @@ Version: %0</source>
 <context>
     <name>UpdateManager</name>
     <message>
-        <source>fopen error
-</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Could not open file for writing...</source>
         <translation>Не удалось открыть файл для записи...</translation>
     </message>
@@ -1527,6 +1522,11 @@ Version: %0</source>
     <message>
         <source>Done. Restarting...</source>
         <translation>Готово. Перезапуск...</translation>
+    </message>
+    <message>
+        <source>fopen error
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

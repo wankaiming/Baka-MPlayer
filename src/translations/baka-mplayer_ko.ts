@@ -548,7 +548,7 @@
         <translation>레이블:</translation>
     </message>
     <message>
-        <source>Chang&amp;e</source>
+        <source>&amp;Change</source>
         <translation>변동(&amp;E)</translation>
     </message>
     <message>
@@ -560,7 +560,7 @@
         <translation>취소(&amp;C)</translation>
     </message>
     <message>
-        <source>C&amp;lear Shortcut</source>
+        <source>&amp;Clear Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -630,23 +630,23 @@
         <translation>보기(&amp;V)</translation>
     </message>
     <message>
-        <source>Fit &amp;Window</source>
+        <source>&amp;Fit Window</source>
         <translation>창 크기 맞추기 (&amp;W)</translation>
     </message>
     <message>
-        <source>Aspect &amp;Ratio</source>
+        <source>&amp;Aspect Ratio</source>
         <translation>화면 비율(&amp;R)</translation>
     </message>
     <message>
-        <source>Subtitle &amp;Track</source>
+        <source>&amp;Subtitle Track</source>
         <translation>자막(&amp;T)</translation>
     </message>
     <message>
-        <source>Font Si&amp;ze</source>
+        <source>&amp;Font Size</source>
         <translation>자막 크기(&amp;Z)</translation>
     </message>
     <message>
-        <source>Take &amp;Screenshot</source>
+        <source>&amp;Take Screenshot</source>
         <translation>스크린 찍기(&amp;S)</translation>
     </message>
     <message>
@@ -654,15 +654,15 @@
         <translation>재생(&amp;P)</translation>
     </message>
     <message>
-        <source>R&amp;epeat</source>
+        <source>&amp;Repeat</source>
         <translation>반복(&amp;E)</translation>
     </message>
     <message>
-        <source>Audio &amp;Tracks</source>
+        <source>&amp;Audio Tracks</source>
         <translation>오디오 트랙(&amp;T)</translation>
     </message>
     <message>
-        <source>Spee&amp;d</source>
+        <source>&amp;Speed</source>
         <translation>속도(&amp;d)</translation>
     </message>
     <message>
@@ -694,19 +694,19 @@
         <translation>도움말(&amp;H)</translation>
     </message>
     <message>
-        <source>Open &amp;Location...</source>
+        <source>&amp;Open Location...</source>
         <translation>주소 열기(&amp;L)...</translation>
     </message>
     <message>
-        <source>Open &amp;Copied Link</source>
+        <source>&amp;Open Copied Link</source>
         <translation>복사 한 링크를 붙여 넣기(&amp;C)</translation>
     </message>
     <message>
-        <source>Pla&amp;y Next File</source>
+        <source>&amp;Play Next File</source>
         <translation>다음 파일 열기(&amp;Y)</translation>
     </message>
     <message>
-        <source>Hide &amp;Album Art</source>
+        <source>&amp;Hide Album Art</source>
         <translation>앨범아트 숨기기(&amp;A)</translation>
     </message>
     <message>
@@ -726,8 +726,8 @@
         <translation>자막 크기 줄이기 0.1%(&amp;D)</translation>
     </message>
     <message>
-        <source>15&amp;0%</source>
-        <translation>15&amp;0%</translation>
+        <source>&amp;150%</source>
+        <translation>&amp;150%</translation>
     </message>
     <message>
         <source>&amp;Mute</source>
@@ -746,7 +746,7 @@
         <translation>디인터레이스(&amp;D)</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
+        <source>&amp;Exit</source>
         <translation>끝내기(&amp;X)</translation>
     </message>
     <message>
@@ -766,11 +766,11 @@
         <translation>&amp;200%</translation>
     </message>
     <message>
-        <source>[ &amp;none ]</source>
+        <source>[ none ]</source>
         <translation>[ 없음 ]</translation>
     </message>
     <message>
-        <source>Show &amp;Command Line</source>
+        <source>&amp;Show Command Line</source>
         <translation>명령 줄 인터페이스 보이기(&amp;C)</translation>
     </message>
     <message>
@@ -782,11 +782,11 @@
         <translation>파일 열기(&amp;O)...</translation>
     </message>
     <message>
-        <source>Show in &amp;Folder</source>
+        <source>&amp;Show in Folder</source>
         <translation>파일 위치 열기(&amp;F)</translation>
     </message>
     <message>
-        <source>Play &amp;Previous File</source>
+        <source>&amp;Play Previous File</source>
         <translation>이전 파일 열기(&amp;P)</translation>
     </message>
     <message>
@@ -794,7 +794,7 @@
         <translation>전체화면(&amp;F)</translation>
     </message>
     <message>
-        <source>Show S&amp;ubtitles</source>
+        <source>&amp;Show Subtitles</source>
         <translation>자막 보임(&amp;U)</translation>
     </message>
     <message>
@@ -810,11 +810,11 @@
         <translation>다시시작(&amp;R)</translation>
     </message>
     <message>
-        <source>Sh&amp;uffle</source>
+        <source>&amp;Shuffle</source>
         <translation>무작위(&amp;U)</translation>
     </message>
     <message>
-        <source>Stop after &amp;Current</source>
+        <source>&amp;Stop after Current</source>
         <translation>현재 파일만 재생하기(&amp;C)</translation>
     </message>
     <message>
@@ -838,7 +838,7 @@
         <translation>프레임별(&amp;F)</translation>
     </message>
     <message>
-        <source>Frame &amp;Back Step</source>
+        <source>&amp;Frame Back Step</source>
         <translation>뒤로 프레임별(&amp;F)</translation>
     </message>
     <message>
@@ -846,7 +846,7 @@
         <translation>특정 시간으로 이동(&amp;J)...</translation>
     </message>
     <message>
-        <source>Online &amp;Help</source>
+        <source>&amp;Online Help</source>
         <translation>온라인 도움말(&amp;H)</translation>
     </message>
     <message>
@@ -854,15 +854,15 @@
         <translation>업데이트 확인(&amp;C)</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
+        <source>&amp;About Qt</source>
         <translation>Qt 정보(&amp;Q)</translation>
     </message>
     <message>
-        <source>About &amp;Baka MPlayer</source>
+        <source>&amp;About Baka MPlayer</source>
         <translation>Baka MPlayer 정보(&amp;B)</translation>
     </message>
     <message>
-        <source>To &amp;Current Size</source>
+        <source>&amp;To Current Size</source>
         <translation>현재 크기로(&amp;C)</translation>
     </message>
     <message>
@@ -870,15 +870,15 @@
         <translation>자동 (&amp;A)</translation>
     </message>
     <message>
-        <source>Force &amp;4:3</source>
+        <source>&amp;Force 4:3</source>
         <translation>&amp;4:3 으로</translation>
     </message>
     <message>
-        <source>Force 16:&amp;9</source>
+        <source>&amp;Force 16:9</source>
         <translation>16:&amp;9 으로</translation>
     </message>
     <message>
-        <source>Force &amp;2.35:1</source>
+        <source>&amp;Force 2.35:1</source>
         <translation>&amp;2.35:1 으로</translation>
     </message>
     <message>
@@ -890,7 +890,7 @@
         <translation>더 크게(&amp;S) +</translation>
     </message>
     <message>
-        <source>S&amp;ize -</source>
+        <source>&amp;Size -</source>
         <translation>더 작게(&amp;S) -</translation>
     </message>
     <message>
@@ -996,11 +996,11 @@ Note: Value must be from %0 - %1</source>
         <translation>속도: %0x</translation>
     </message>
     <message>
-        <source>Update &amp;Streaming Support</source>
+        <source>&amp;Update Streaming Support</source>
         <translation>유튜브 지원 업데이트(&amp;S)</translation>
     </message>
     <message>
-        <source>Show Playback &amp;Info</source>
+        <source>&amp;Show Playback Info</source>
         <translation>재생 정보 보이기(&amp;I)</translation>
     </message>
     <message>
@@ -1221,7 +1221,7 @@ Note: Value must be from %0 - %1</source>
         <translation>스크린 찍기</translation>
     </message>
     <message>
-        <source>Chang&amp;e...</source>
+        <source>&amp;Change...</source>
         <translation>변동(&amp;E)...</translation>
     </message>
     <message>
@@ -1253,11 +1253,11 @@ Note: Value must be from %0 - %1</source>
         <translation>재생 기록</translation>
     </message>
     <message>
-        <source>Remember &amp;recently opened files up to</source>
+        <source>&amp;Remember recently opened files up to</source>
         <translation>재생 기록을 기역하기(&amp;R):</translation>
     </message>
     <message>
-        <source>Remember playback &amp;position</source>
+        <source>&amp;Remember playback position</source>
         <translation>위치 기역하기(&amp;P)</translation>
     </message>
     <message>
@@ -1265,7 +1265,7 @@ Note: Value must be from %0 - %1</source>
         <translation>입력 명령으로 실행하기 위해서는 명령 앞에 &apos;mpv&apos;를 쓰세요.</translation>
     </message>
     <message>
-        <source>Rese&amp;t All</source>
+        <source>&amp;Reset All</source>
         <translation>모두 초기화(&amp;T)</translation>
     </message>
     <message>
@@ -1333,11 +1333,11 @@ Note: Value must be from %0 - %1</source>
         <translation>%0는 벌서 사용되고 있습니다. %0의 기능을 바꿀까요?</translation>
     </message>
     <message>
-        <source>A&amp;lways</source>
+        <source>&amp;Always</source>
         <translation>항상(&amp;L)</translation>
     </message>
     <message>
-        <source>Always show the &amp;save window</source>
+        <source>&amp;Always show the save window</source>
         <translation>항상 창을 보이기 (&amp;S)</translation>
     </message>
     <message>
@@ -1420,7 +1420,7 @@ Note: Value must be from %0 - %1</source>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Sho&amp;w subtitles</source>
+        <source>&amp;Show subtitles</source>
         <translation>자막도 포함(&amp;W)</translation>
     </message>
     <message>
@@ -1488,12 +1488,6 @@ Version: %0</source>
 <context>
     <name>UpdateManager</name>
     <message>
-        <source>fopen error
-</source>
-        <translation>fopen error
-</translation>
-    </message>
-    <message>
         <source>Could not open file for writing...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1528,6 +1522,11 @@ Version: %0</source>
     <message>
         <source>Done. Restarting...</source>
         <translation>완료됨. 다시 시작중...</translation>
+    </message>
+    <message>
+        <source>fopen error
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

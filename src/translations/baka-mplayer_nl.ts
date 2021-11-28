@@ -548,7 +548,7 @@
         <translation></translation>
     </message>
     <message>
-        <source>Chang&amp;e</source>
+        <source>&amp;Change</source>
         <translation>Verand&amp;er</translation>
     </message>
     <message>
@@ -560,7 +560,7 @@
         <translation type="unfinished">&amp;Annuleren</translation>
     </message>
     <message>
-        <source>C&amp;lear Shortcut</source>
+        <source>&amp;Clear Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -630,23 +630,23 @@
         <translation>&amp;Weergave</translation>
     </message>
     <message>
-        <source>Fit &amp;Window</source>
+        <source>&amp;Fit Window</source>
         <translation>Vul &amp;Venster</translation>
     </message>
     <message>
-        <source>Aspect &amp;Ratio</source>
+        <source>&amp;Aspect Ratio</source>
         <translation>&amp;Beeldverhouding</translation>
     </message>
     <message>
-        <source>Subtitle &amp;Track</source>
+        <source>&amp;Subtitle Track</source>
         <translation>&amp;Ondertitelingsspoor</translation>
     </message>
     <message>
-        <source>Font Si&amp;ze</source>
+        <source>&amp;Font Size</source>
         <translation>&amp;Lettergrootte</translation>
     </message>
     <message>
-        <source>Take &amp;Screenshot</source>
+        <source>&amp;Take Screenshot</source>
         <translation>Maak &amp;Schermafdruk</translation>
     </message>
     <message>
@@ -654,15 +654,15 @@
         <translation>&amp;Afspelen</translation>
     </message>
     <message>
-        <source>R&amp;epeat</source>
+        <source>&amp;Repeat</source>
         <translation>H&amp;erhalen</translation>
     </message>
     <message>
-        <source>Audio &amp;Tracks</source>
+        <source>&amp;Audio Tracks</source>
         <translation>Audio en &amp;Sporen</translation>
     </message>
     <message>
-        <source>Spee&amp;d</source>
+        <source>&amp;Speed</source>
         <translation>Snelhei&amp;d</translation>
     </message>
     <message>
@@ -698,19 +698,19 @@
         <translation>&amp;Open Bestand...</translation>
     </message>
     <message>
-        <source>Open &amp;Location...</source>
+        <source>&amp;Open Location...</source>
         <translation>Open &amp;Locatie...</translation>
     </message>
     <message>
-        <source>Show in &amp;Folder</source>
+        <source>&amp;Show in Folder</source>
         <translation>Weergeef in &amp;Map</translation>
     </message>
     <message>
-        <source>Play &amp;Previous File</source>
+        <source>&amp;Play Previous File</source>
         <translation>Speel &amp;Vorige Bestand</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
+        <source>&amp;Exit</source>
         <translation>&amp;Afsluiten</translation>
     </message>
     <message>
@@ -718,11 +718,11 @@
         <translation>&amp;Volledig Scherm</translation>
     </message>
     <message>
-        <source>Show S&amp;ubtitles</source>
+        <source>&amp;Show Subtitles</source>
         <translation>Toon &amp;Ondertiteling</translation>
     </message>
     <message>
-        <source>Show Playback &amp;Info</source>
+        <source>&amp;Show Playback Info</source>
         <translation>Weergeef &amp;Afspeelinfo</translation>
     </message>
     <message>
@@ -738,11 +738,11 @@
         <translation>He&amp;rstart</translation>
     </message>
     <message>
-        <source>Sh&amp;uffle</source>
+        <source>&amp;Shuffle</source>
         <translation></translation>
     </message>
     <message>
-        <source>Stop after &amp;Current</source>
+        <source>&amp;Stop after Current</source>
         <translation>Stop na &amp;Huidige</translation>
     </message>
     <message>
@@ -758,7 +758,7 @@
         <translation>&amp;Frame Stap</translation>
     </message>
     <message>
-        <source>Frame &amp;Back Step</source>
+        <source>&amp;Frame Back Step</source>
         <translation>Frame Stap &amp;Terug</translation>
     </message>
     <message>
@@ -774,7 +774,7 @@
         <translation>&amp;Dim Lichten</translation>
     </message>
     <message>
-        <source>Online &amp;Help</source>
+        <source>&amp;Online Help</source>
         <translation>Online en &amp;Hulp</translation>
     </message>
     <message>
@@ -782,15 +782,15 @@
         <translation>&amp;Controleer voor Updates</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
+        <source>&amp;About Qt</source>
         <translation>Over &amp;Qt</translation>
     </message>
     <message>
-        <source>About &amp;Baka MPlayer</source>
+        <source>&amp;About Baka MPlayer</source>
         <translation>Over &amp;Baka MPlayer</translation>
     </message>
     <message>
-        <source>To &amp;Current Size</source>
+        <source>&amp;To Current Size</source>
         <translation>Naar &amp;Huidige Grootte</translation>
     </message>
     <message>
@@ -798,15 +798,15 @@
         <translation>&amp;Automatische Detectie</translation>
     </message>
     <message>
-        <source>Force &amp;4:3</source>
+        <source>&amp;Force 4:3</source>
         <translation>Forceer &amp;4:3</translation>
     </message>
     <message>
-        <source>Force 16:&amp;9</source>
+        <source>&amp;Force 16:9</source>
         <translation>Forceer 16:&amp;9</translation>
     </message>
     <message>
-        <source>Force &amp;2.35:1</source>
+        <source>&amp;Force 2.35:1</source>
         <translation>Forceer &amp;2.35:1</translation>
     </message>
     <message>
@@ -818,7 +818,7 @@
         <translation>&amp;Grootte +</translation>
     </message>
     <message>
-        <source>S&amp;ize -</source>
+        <source>&amp;Size -</source>
         <translation>G&amp;rootte -</translation>
     </message>
     <message>
@@ -838,7 +838,7 @@
         <translation>&amp;Dit Bestand</translation>
     </message>
     <message>
-        <source>Show &amp;Command Line</source>
+        <source>&amp;Show Command Line</source>
         <translation>&amp;Weergeef Opdrachtprompt</translation>
     </message>
     <message>
@@ -858,7 +858,7 @@
         <translation>&amp;Herstel</translation>
     </message>
     <message>
-        <source>Update &amp;Streaming Support</source>
+        <source>&amp;Update Streaming Support</source>
         <translation>Update &amp;Streamingondersteuning</translation>
     </message>
     <message>
@@ -920,15 +920,15 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Open &amp;Copied Link</source>
+        <source>&amp;Open Copied Link</source>
         <translation>Open &amp;Gekopieerde Link</translation>
     </message>
     <message>
-        <source>Pla&amp;y Next File</source>
+        <source>&amp;Play Next File</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Hide &amp;Album Art</source>
+        <source>&amp;Hide Album Art</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -948,7 +948,7 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
         <translation></translation>
     </message>
     <message>
-        <source>[ &amp;none ]</source>
+        <source>[ none ]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -968,7 +968,7 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>15&amp;0%</source>
+        <source>&amp;150%</source>
         <translation></translation>
     </message>
     <message>
@@ -1269,11 +1269,11 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
         <translation>Geschiedenis</translation>
     </message>
     <message>
-        <source>Remember &amp;recently opened files up to</source>
+        <source>&amp;Remember recently opened files up to</source>
         <translation>Onthoud &amp;recent geopende bestanden tot</translation>
     </message>
     <message>
-        <source>Remember playback &amp;position</source>
+        <source>&amp;Remember playback position</source>
         <translation>Onthoud afspeel &amp;positie</translation>
     </message>
     <message>
@@ -1281,11 +1281,11 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Rese&amp;t All</source>
+        <source>&amp;Reset All</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Chang&amp;e...</source>
+        <source>&amp;Change...</source>
         <translation>Verand&amp;er</translation>
     </message>
     <message>
@@ -1313,11 +1313,11 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
         <translation>%0 is al in gebruik. Wilt u een andere functie toewijzen?</translation>
     </message>
     <message>
-        <source>A&amp;lways</source>
+        <source>&amp;Always</source>
         <translation>A&amp;ltijd</translation>
     </message>
     <message>
-        <source>Always show the &amp;save window</source>
+        <source>&amp;Always show the save window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1420,7 +1420,7 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
         <translation></translation>
     </message>
     <message>
-        <source>Sho&amp;w subtitles</source>
+        <source>&amp;Show subtitles</source>
         <translation>&amp;Weergeef ondertiteling</translation>
     </message>
     <message>
@@ -1491,11 +1491,6 @@ Version: %0</source>
         <translation>Update downloaden...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>write error</source>
         <translation>schrijffout</translation>
     </message>
@@ -1526,6 +1521,11 @@ Version: %0</source>
     <message>
         <source>Done. Restarting...</source>
         <translation>Klaar. Herstarten...</translation>
+    </message>
+    <message>
+        <source>fopen error
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

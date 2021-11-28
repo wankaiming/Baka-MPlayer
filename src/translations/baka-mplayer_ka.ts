@@ -548,7 +548,7 @@
         <translation>სათაური:</translation>
     </message>
     <message>
-        <source>Chang&amp;e</source>
+        <source>&amp;Change</source>
         <translation>შეც&amp;ვლა</translation>
     </message>
     <message>
@@ -560,7 +560,7 @@
         <translation>&amp;გაუქმება</translation>
     </message>
     <message>
-        <source>C&amp;lear Shortcut</source>
+        <source>&amp;Clear Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -630,23 +630,23 @@
         <translation>&amp;ხედი</translation>
     </message>
     <message>
-        <source>Fit &amp;Window</source>
+        <source>&amp;Fit Window</source>
         <translation>ფანჯარაზე &amp;მორგება</translation>
     </message>
     <message>
-        <source>Aspect &amp;Ratio</source>
+        <source>&amp;Aspect Ratio</source>
         <translation>&amp;თანაფარდობა</translation>
     </message>
     <message>
-        <source>Subtitle &amp;Track</source>
+        <source>&amp;Subtitle Track</source>
         <translation>სუბტიტრების &amp;კვალი</translation>
     </message>
     <message>
-        <source>Font Si&amp;ze</source>
+        <source>&amp;Font Size</source>
         <translation>შრიფტის &amp;ზომა</translation>
     </message>
     <message>
-        <source>Take &amp;Screenshot</source>
+        <source>&amp;Take Screenshot</source>
         <translation>&amp;ეკრანის ასლის გადაღება</translation>
     </message>
     <message>
@@ -654,15 +654,15 @@
         <translation>&amp;დაკვრა</translation>
     </message>
     <message>
-        <source>R&amp;epeat</source>
+        <source>&amp;Repeat</source>
         <translation>&amp;გამეორება</translation>
     </message>
     <message>
-        <source>Audio &amp;Tracks</source>
+        <source>&amp;Audio Tracks</source>
         <translation>აუდიო &amp;კვალები</translation>
     </message>
     <message>
-        <source>Spee&amp;d</source>
+        <source>&amp;Speed</source>
         <translation>სიჩქა&amp;რე</translation>
     </message>
     <message>
@@ -694,27 +694,27 @@
         <translation>ფაილის &amp;გახსნა...</translation>
     </message>
     <message>
-        <source>Open &amp;Location...</source>
+        <source>&amp;Open Location...</source>
         <translation>&amp;მდებარეობის გახსნა...</translation>
     </message>
     <message>
-        <source>Open &amp;Copied Link</source>
+        <source>&amp;Open Copied Link</source>
         <translation>&amp;დაკოპირებული ბმულის გახნსა</translation>
     </message>
     <message>
-        <source>Show in &amp;Folder</source>
+        <source>&amp;Show in Folder</source>
         <translation>&amp;საქაღალდეში ჩვენება</translation>
     </message>
     <message>
-        <source>Pla&amp;y Next File</source>
+        <source>&amp;Play Next File</source>
         <translation>შემდეგი ფაილის და&amp;კვრა</translation>
     </message>
     <message>
-        <source>Play &amp;Previous File</source>
+        <source>&amp;Play Previous File</source>
         <translation>&amp;წინა ფაილის დაკვრა</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
+        <source>&amp;Exit</source>
         <translation>გა&amp;მოსვლა</translation>
     </message>
     <message>
@@ -722,11 +722,11 @@
         <translation>სრუ&amp;ლი ეკრანი</translation>
     </message>
     <message>
-        <source>Show S&amp;ubtitles</source>
+        <source>&amp;Show Subtitles</source>
         <translation>ს&amp;უბტიტრების ჩვენება</translation>
     </message>
     <message>
-        <source>Show Playback &amp;Info</source>
+        <source>&amp;Show Playback Info</source>
         <translation>დაკვრის &amp;ინფოს ჩვენება</translation>
     </message>
     <message>
@@ -742,11 +742,11 @@
         <translation>&amp;ხელახლა</translation>
     </message>
     <message>
-        <source>Sh&amp;uffle</source>
+        <source>&amp;Shuffle</source>
         <translation>ა&amp;რევა</translation>
     </message>
     <message>
-        <source>Stop after &amp;Current</source>
+        <source>&amp;Stop after Current</source>
         <translation>გაჩერება მიმ&amp;დინარეს შემდეგ</translation>
     </message>
     <message>
@@ -762,7 +762,7 @@
         <translation>&amp;კადრი წინ</translation>
     </message>
     <message>
-        <source>Frame &amp;Back Step</source>
+        <source>&amp;Frame Back Step</source>
         <translation>კადრი &amp;უკან</translation>
     </message>
     <message>
@@ -774,7 +774,7 @@
         <translation>დასაკრავი სიის &amp;ჩვენება</translation>
     </message>
     <message>
-        <source>Hide &amp;Album Art</source>
+        <source>&amp;Hide Album Art</source>
         <translation>&amp;ალბომის გარეკნის დამალვა</translation>
     </message>
     <message>
@@ -782,7 +782,7 @@
         <translation>სინათლის ჩა&amp;ქრობა</translation>
     </message>
     <message>
-        <source>Online &amp;Help</source>
+        <source>&amp;Online Help</source>
         <translation>ვებ-&amp;დახმარება</translation>
     </message>
     <message>
@@ -790,15 +790,15 @@
         <translation>განახლებების &amp;შემოწმება</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
+        <source>&amp;About Qt</source>
         <translation>&amp;Qt-ს შესახებ</translation>
     </message>
     <message>
-        <source>About &amp;Baka MPlayer</source>
+        <source>&amp;About Baka MPlayer</source>
         <translation>&amp;Baka MPlayer-ის შესახებ</translation>
     </message>
     <message>
-        <source>To &amp;Current Size</source>
+        <source>&amp;To Current Size</source>
         <translation>&amp;მიმდინარე ზომაზე</translation>
     </message>
     <message>
@@ -822,15 +822,15 @@
         <translation>&amp;ავტო-დადგენა</translation>
     </message>
     <message>
-        <source>Force &amp;4:3</source>
+        <source>&amp;Force 4:3</source>
         <translation>&amp;4:3-ის იძულება</translation>
     </message>
     <message>
-        <source>Force 16:&amp;9</source>
+        <source>&amp;Force 16:9</source>
         <translation>16:&amp;9-ის იძულება</translation>
     </message>
     <message>
-        <source>Force &amp;2.35:1</source>
+        <source>&amp;Force 2.35:1</source>
         <translation>&amp;2.35:1-ის იძულება</translation>
     </message>
     <message>
@@ -838,7 +838,7 @@
         <translation>სუბტიტრების &amp;დამატება...</translation>
     </message>
     <message>
-        <source>[ &amp;none ]</source>
+        <source>[ none ]</source>
         <translation>[ &amp;არცერთი ]</translation>
     </message>
     <message>
@@ -846,7 +846,7 @@
         <translation>&amp;ზომა +</translation>
     </message>
     <message>
-        <source>S&amp;ize -</source>
+        <source>&amp;Size -</source>
         <translation>ზ&amp;ომა -</translation>
     </message>
     <message>
@@ -866,7 +866,7 @@
         <translation>&amp;ამ ფაილის</translation>
     </message>
     <message>
-        <source>Show &amp;Command Line</source>
+        <source>&amp;Show Command Line</source>
         <translation>&amp;ბრძანებების ზოლის ჩვენება</translation>
     </message>
     <message>
@@ -902,11 +902,11 @@
         <translation>&amp;ჩამოყრა</translation>
     </message>
     <message>
-        <source>15&amp;0%</source>
-        <translation>15&amp;0%</translation>
+        <source>&amp;150%</source>
+        <translation>&amp;150%</translation>
     </message>
     <message>
-        <source>Update &amp;Streaming Support</source>
+        <source>&amp;Update Streaming Support</source>
         <translation>&amp;სტრიმინგის მხარდაჭერის განახლება</translation>
     </message>
     <message>
@@ -1173,7 +1173,7 @@ Note: Value must be from %0 - %1</source>
         <translation>წინა პლანზე</translation>
     </message>
     <message>
-        <source>A&amp;lways</source>
+        <source>&amp;Always</source>
         <translation>ყო&amp;ველთვის</translation>
     </message>
     <message>
@@ -1217,11 +1217,11 @@ Note: Value must be from %0 - %1</source>
         <translation>ისტორია</translation>
     </message>
     <message>
-        <source>Remember &amp;recently opened files up to</source>
+        <source>&amp;Remember recently opened files up to</source>
         <translation>დამახსოვრებული &amp;ბოლოს გახსნილი ფაილების რაოდენობა</translation>
     </message>
     <message>
-        <source>Remember playback &amp;position</source>
+        <source>&amp;Remember playback position</source>
         <translation>დაკვრს &amp;პოზიციის დამახსოვრება</translation>
     </message>
     <message>
@@ -1245,7 +1245,7 @@ Note: Value must be from %0 - %1</source>
         <translation>ირალიყი</translation>
     </message>
     <message>
-        <source>Rese&amp;t All</source>
+        <source>&amp;Reset All</source>
         <translation>ყველას ჩამო&amp;ყრა</translation>
     </message>
     <message>
@@ -1293,7 +1293,7 @@ Note: Value must be from %0 - %1</source>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Chang&amp;e...</source>
+        <source>&amp;Change...</source>
         <translation>შეცვ&amp;ლა...</translation>
     </message>
     <message>
@@ -1309,7 +1309,7 @@ Note: Value must be from %0 - %1</source>
         <translation>ნაგულისხმევი შესანახი მდებარეობა:</translation>
     </message>
     <message>
-        <source>Always show the &amp;save window</source>
+        <source>&amp;Always show the save window</source>
         <translation>&amp;შენახვის ფანჯრის ყოველთვის ჩვენება</translation>
     </message>
     <message>
@@ -1420,7 +1420,7 @@ Note: Value must be from %0 - %1</source>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Sho&amp;w subtitles</source>
+        <source>&amp;Show subtitles</source>
         <translation>სუბტიტრების ჩვე&amp;ნება</translation>
     </message>
     <message>
@@ -1492,12 +1492,6 @@ Version: %0</source>
         <translation>განახლების ჩამოტვირთვა...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation>fopen error
-</translation>
-    </message>
-    <message>
         <source>write error</source>
         <translation>write error</translation>
     </message>
@@ -1528,6 +1522,11 @@ Version: %0</source>
     <message>
         <source>Done. Restarting...</source>
         <translation>დასრულდა. გადატვირთვა...</translation>
+    </message>
+    <message>
+        <source>fopen error
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

@@ -551,11 +551,11 @@
         <translation>Legenda:</translation>
     </message>
     <message>
-        <source>C&amp;lear Shortcut</source>
+        <source>&amp;Clear Shortcut</source>
         <translation>Remover Atal&amp;ho</translation>
     </message>
     <message>
-        <source>Chang&amp;e</source>
+        <source>&amp;Change</source>
         <translation>Alt&amp;erar</translation>
     </message>
     <message>
@@ -634,23 +634,23 @@
         <translation>&amp;Exibir</translation>
     </message>
     <message>
-        <source>Fit &amp;Window</source>
+        <source>&amp;Fit Window</source>
         <translation>Ajustar a &amp;Janela</translation>
     </message>
     <message>
-        <source>Aspect &amp;Ratio</source>
+        <source>&amp;Aspect Ratio</source>
         <translation>Proporção de &amp;Tela</translation>
     </message>
     <message>
-        <source>Subtitle &amp;Track</source>
+        <source>&amp;Subtitle Track</source>
         <translation>Faixa de &amp;Legenda</translation>
     </message>
     <message>
-        <source>Font Si&amp;ze</source>
+        <source>&amp;Font Size</source>
         <translation>&amp;Tamanho da Fonte</translation>
     </message>
     <message>
-        <source>Take &amp;Screenshot</source>
+        <source>&amp;Take Screenshot</source>
         <translatorcomment>Not sure if there&apos;s a better translation for screenshot. UPDATE: The &quot;official&quot; translation is &quot;captura de tela&quot;. Fun fact: most brazilians (that don&apos;t speak english at all), just call it a &quot;print&quot;, but with our very special way to pronounce english words, of course.</translatorcomment>
         <translation>Capturar a &amp;Tela</translation>
     </message>
@@ -659,11 +659,11 @@
         <translation>&amp;Reproduzir</translation>
     </message>
     <message>
-        <source>R&amp;epeat</source>
+        <source>&amp;Repeat</source>
         <translation>R&amp;epetição</translation>
     </message>
     <message>
-        <source>Audio &amp;Tracks</source>
+        <source>&amp;Audio Tracks</source>
         <translation>&amp;Faixa de Áudio</translation>
     </message>
     <message>
@@ -687,19 +687,19 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Open &amp;Copied Link</source>
+        <source>&amp;Open Copied Link</source>
         <translation>Reproduzir URL &amp;copiado</translation>
     </message>
     <message>
-        <source>Pla&amp;y Next File</source>
+        <source>&amp;Play Next File</source>
         <translation>Reprodu&amp;zir Próximo Arquivo</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
+        <source>&amp;Exit</source>
         <translation>&amp;Sair</translation>
     </message>
     <message>
-        <source>Hide &amp;Album Art</source>
+        <source>&amp;Hide Album Art</source>
         <translation>&amp;Ocultar Arte do Álbum</translation>
     </message>
     <message>
@@ -719,11 +719,11 @@
         <translation>&amp;200%</translation>
     </message>
     <message>
-        <source>[ &amp;none ]</source>
+        <source>[ none ]</source>
         <translation>[ &amp;nenhum ]</translation>
     </message>
     <message>
-        <source>Show &amp;Command Line</source>
+        <source>&amp;Show Command Line</source>
         <translation>Exibir Linha de &amp;Comando</translation>
     </message>
     <message>
@@ -784,11 +784,11 @@
         <translation>&amp;Arquivo Aberto...</translation>
     </message>
     <message>
-        <source>Show in &amp;Folder</source>
+        <source>&amp;Show in Folder</source>
         <translation>Mostrar na &amp;Pasta</translation>
     </message>
     <message>
-        <source>Play &amp;Previous File</source>
+        <source>&amp;Play Previous File</source>
         <translation>Reproduzir Arquivo &amp;Anterior</translation>
     </message>
     <message>
@@ -796,7 +796,7 @@
         <translation>&amp;Tela Cheia</translation>
     </message>
     <message>
-        <source>Show S&amp;ubtitles</source>
+        <source>&amp;Show Subtitles</source>
         <translation>E&amp;xibir legendas</translation>
     </message>
     <message>
@@ -813,11 +813,11 @@
         <translation>&amp;Reiniciar</translation>
     </message>
     <message>
-        <source>Sh&amp;uffle</source>
+        <source>&amp;Shuffle</source>
         <translation>&amp;Misturar</translation>
     </message>
     <message>
-        <source>Stop after &amp;Current</source>
+        <source>&amp;Stop after Current</source>
         <translation>&amp;Parar Reprodução Após o Arquivo Atual</translation>
     </message>
     <message>
@@ -833,7 +833,7 @@
         <translation>&amp;Próximo Capítulo</translation>
     </message>
     <message>
-        <source>Spee&amp;d</source>
+        <source>&amp;Speed</source>
         <translation>&amp;Velocidade</translation>
     </message>
     <message>
@@ -845,7 +845,7 @@
         <translation>Avançar Um &amp;Quadro</translation>
     </message>
     <message>
-        <source>Frame &amp;Back Step</source>
+        <source>&amp;Frame Back Step</source>
         <translation>&amp;Retroceder Um Quadro</translation>
     </message>
     <message>
@@ -853,7 +853,7 @@
         <translation>&amp;Ir Para o Tempo...</translation>
     </message>
     <message>
-        <source>Online &amp;Help</source>
+        <source>&amp;Online Help</source>
         <translation>&amp;Ajuda On-line</translation>
     </message>
     <message>
@@ -861,15 +861,15 @@
         <translation>&amp;Procurar Atualizações</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
+        <source>&amp;About Qt</source>
         <translation>Sobre o &amp;Qt</translation>
     </message>
     <message>
-        <source>About &amp;Baka MPlayer</source>
+        <source>&amp;About Baka MPlayer</source>
         <translation>Sobre o &amp;Baka MPlayer</translation>
     </message>
     <message>
-        <source>To &amp;Current Size</source>
+        <source>&amp;To Current Size</source>
         <translation>Ao Tamanho &amp;Atual</translation>
     </message>
     <message>
@@ -877,15 +877,15 @@
         <translation>Detecção &amp;Automática</translation>
     </message>
     <message>
-        <source>Force &amp;4:3</source>
+        <source>&amp;Force 4:3</source>
         <translation>&amp;4:3 (Forçar)</translation>
     </message>
     <message>
-        <source>Force 16:&amp;9</source>
+        <source>&amp;Force 16:9</source>
         <translation>16:&amp;9 (Forçar)</translation>
     </message>
     <message>
-        <source>Force &amp;2.35:1</source>
+        <source>&amp;Force 2.35:1</source>
         <translation>&amp;2.35:1 (Forçar)</translation>
     </message>
     <message>
@@ -897,7 +897,7 @@
         <translation>&amp;Tamanho +</translation>
     </message>
     <message>
-        <source>S&amp;ize -</source>
+        <source>&amp;Size -</source>
         <translation>T&amp;amanho -</translation>
     </message>
     <message>
@@ -991,19 +991,19 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>Velocidade: %0x</translation>
     </message>
     <message>
-        <source>Open &amp;Location...</source>
+        <source>&amp;Open Location...</source>
         <translation>Abrir UR&amp;L...</translation>
     </message>
     <message>
-        <source>15&amp;0%</source>
-        <translation>15&amp;0%</translation>
+        <source>&amp;150%</source>
+        <translation>&amp;150%</translation>
     </message>
     <message>
-        <source>Update &amp;Streaming Support</source>
+        <source>&amp;Update Streaming Support</source>
         <translation>Atualizar o Suporte Para &amp;Streaming</translation>
     </message>
     <message>
-        <source>Show Playback &amp;Info</source>
+        <source>&amp;Show Playback Info</source>
         <translation>Exibir &amp;Informações de Reprodução</translation>
     </message>
     <message>
@@ -1231,7 +1231,7 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>Captura de Tela</translation>
     </message>
     <message>
-        <source>Chang&amp;e...</source>
+        <source>&amp;Change...</source>
         <translation>Alt&amp;erar...</translation>
     </message>
     <message>
@@ -1263,11 +1263,11 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>Histórico</translation>
     </message>
     <message>
-        <source>Remember &amp;recently opened files up to</source>
+        <source>&amp;Remember recently opened files up to</source>
         <translation>Quantidade de arquivos na lista de ar&amp;quivos recentes</translation>
     </message>
     <message>
-        <source>Remember playback &amp;position</source>
+        <source>&amp;Remember playback position</source>
         <translation>Lembrar a última &amp;posição de reprodução</translation>
     </message>
     <message>
@@ -1275,7 +1275,7 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>Prefixar um comando com &apos;mpv&apos; para executá-lo como um comando de entrada.</translation>
     </message>
     <message>
-        <source>Rese&amp;t All</source>
+        <source>&amp;Reset All</source>
         <translation>&amp;Redefinir Tudo</translation>
     </message>
     <message>
@@ -1287,7 +1287,7 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Always show the &amp;save window</source>
+        <source>&amp;Always show the save window</source>
         <translation>Sempre exibir a &amp;janela de salvar</translation>
     </message>
     <message>
@@ -1385,7 +1385,7 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>%0 está em uso. Você gostaria de modificar a sua função?</translation>
     </message>
     <message>
-        <source>A&amp;lways</source>
+        <source>&amp;Always</source>
         <translation>&amp;Sempre</translation>
     </message>
     <message>
@@ -1432,7 +1432,7 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Sho&amp;w subtitles</source>
+        <source>&amp;Show subtitles</source>
         <translation>&amp;Exibir legendas</translation>
     </message>
     <message>
@@ -1512,12 +1512,6 @@ Versão: %0</translation>
         <translation>Baixando atualização...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation>fopen(): erro
-</translation>
-    </message>
-    <message>
         <source>write error</source>
         <translation>erro de escrita</translation>
     </message>
@@ -1540,6 +1534,11 @@ Versão: %0</translation>
     <message>
         <source>Done. Restarting...</source>
         <translation>Pronto. Reiniciando...</translation>
+    </message>
+    <message>
+        <source>fopen error
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

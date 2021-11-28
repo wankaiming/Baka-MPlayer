@@ -173,7 +173,7 @@ QPushButton:disabled {
      <item>
       <widget class="QCheckBox" name="subtitlesCheckBox">
        <property name="text">
-        <string>Sho&amp;w subtitles</string>
+        <string>&amp;Show subtitles</string>
        </property>
       </widget>
      </item>

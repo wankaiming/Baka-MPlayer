@@ -548,7 +548,7 @@
         <translation>Bezeichnung:</translation>
     </message>
     <message>
-        <source>Chang&amp;e</source>
+        <source>&amp;Change</source>
         <translation>Ändern</translation>
     </message>
     <message>
@@ -560,7 +560,7 @@
         <translation>&amp;Abbrechen</translation>
     </message>
     <message>
-        <source>C&amp;lear Shortcut</source>
+        <source>&amp;Clear Shortcut</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -630,23 +630,23 @@
         <translation>&amp;Ansicht</translation>
     </message>
     <message>
-        <source>Fit &amp;Window</source>
+        <source>&amp;Fit Window</source>
         <translation>S&amp;kalieren auf</translation>
     </message>
     <message>
-        <source>Aspect &amp;Ratio</source>
+        <source>&amp;Aspect Ratio</source>
         <translation>&amp;Seitenverhältnis</translation>
     </message>
     <message>
-        <source>Subtitle &amp;Track</source>
+        <source>&amp;Subtitle Track</source>
         <translation>U&amp;ntertitelspur</translation>
     </message>
     <message>
-        <source>Font Si&amp;ze</source>
+        <source>&amp;Font Size</source>
         <translation>S&amp;chriftgröße</translation>
     </message>
     <message>
-        <source>Take &amp;Screenshot</source>
+        <source>&amp;Take Screenshot</source>
         <translation>&amp;Bildschirmfoto</translation>
     </message>
     <message>
@@ -654,15 +654,15 @@
         <translation>&amp;Wiedergabe</translation>
     </message>
     <message>
-        <source>R&amp;epeat</source>
+        <source>&amp;Repeat</source>
         <translation>Wiede&amp;rholen</translation>
     </message>
     <message>
-        <source>Audio &amp;Tracks</source>
+        <source>&amp;Audio Tracks</source>
         <translation>&amp;Tonspuren</translation>
     </message>
     <message>
-        <source>Spee&amp;d</source>
+        <source>&amp;Speed</source>
         <translation>&amp;Geschwindigkeit</translation>
     </message>
     <message>
@@ -698,19 +698,19 @@
         <translation>Datei &amp;öffnen...</translation>
     </message>
     <message>
-        <source>Open &amp;Location...</source>
+        <source>&amp;Open Location...</source>
         <translation>&amp;Ort öffnen...</translation>
     </message>
     <message>
-        <source>Show in &amp;Folder</source>
+        <source>&amp;Show in Folder</source>
         <translation>&amp;In Verzeichnis anzeigen</translation>
     </message>
     <message>
-        <source>Play &amp;Previous File</source>
+        <source>&amp;Play Previous File</source>
         <translation>&amp;Vorherige Datei wiedergeben</translation>
     </message>
     <message>
-        <source>E&amp;xit</source>
+        <source>&amp;Exit</source>
         <translation>&amp;Beenden</translation>
     </message>
     <message>
@@ -718,11 +718,11 @@
         <translation>&amp;Vollbild</translation>
     </message>
     <message>
-        <source>Show S&amp;ubtitles</source>
+        <source>&amp;Show Subtitles</source>
         <translation>&amp;Untertitel anzeigen</translation>
     </message>
     <message>
-        <source>Show Playback &amp;Info</source>
+        <source>&amp;Show Playback Info</source>
         <translation>&amp;Wiedergabeinformationen anzeigen</translation>
     </message>
     <message>
@@ -738,11 +738,11 @@
         <translation>&amp;Neustart</translation>
     </message>
     <message>
-        <source>Sh&amp;uffle</source>
+        <source>&amp;Shuffle</source>
         <translation>&amp;Zufällige Wiedergabe</translation>
     </message>
     <message>
-        <source>Stop after &amp;Current</source>
+        <source>&amp;Stop after Current</source>
         <translation>St&amp;opp nach aktueller Datei</translation>
     </message>
     <message>
@@ -758,7 +758,7 @@
         <translation>&amp;Frame vorwärts</translation>
     </message>
     <message>
-        <source>Frame &amp;Back Step</source>
+        <source>&amp;Frame Back Step</source>
         <translation>F&amp;rame rückwärts</translation>
     </message>
     <message>
@@ -774,7 +774,7 @@
         <translation>&amp;Licht aus</translation>
     </message>
     <message>
-        <source>Online &amp;Help</source>
+        <source>&amp;Online Help</source>
         <translation>Online &amp;Hilfe</translation>
     </message>
     <message>
@@ -782,15 +782,15 @@
         <translation>Auf &amp;Updates prüfen</translation>
     </message>
     <message>
-        <source>About &amp;Qt</source>
+        <source>&amp;About Qt</source>
         <translation>Über &amp;Qt</translation>
     </message>
     <message>
-        <source>About &amp;Baka MPlayer</source>
+        <source>&amp;About Baka MPlayer</source>
         <translation>Über &amp;Baka MPlayer</translation>
     </message>
     <message>
-        <source>To &amp;Current Size</source>
+        <source>&amp;To Current Size</source>
         <translation>&amp;Fenstergröße</translation>
     </message>
     <message>
@@ -798,15 +798,15 @@
         <translation>&amp;Automatisch erkennen</translation>
     </message>
     <message>
-        <source>Force &amp;4:3</source>
+        <source>&amp;Force 4:3</source>
         <translation>&amp;4:3 erzwingen</translation>
     </message>
     <message>
-        <source>Force 16:&amp;9</source>
+        <source>&amp;Force 16:9</source>
         <translation>16:&amp;9 erzwingen</translation>
     </message>
     <message>
-        <source>Force &amp;2.35:1</source>
+        <source>&amp;Force 2.35:1</source>
         <translation>&amp;2.35:1 erzwingen</translation>
     </message>
     <message>
@@ -818,7 +818,7 @@
         <translation>&amp;größer</translation>
     </message>
     <message>
-        <source>S&amp;ize -</source>
+        <source>&amp;Size -</source>
         <translation>&amp;kleiner</translation>
     </message>
     <message>
@@ -838,7 +838,7 @@
         <translation>Diese &amp;Datei</translation>
     </message>
     <message>
-        <source>Show &amp;Command Line</source>
+        <source>&amp;Show Command Line</source>
         <translation>&amp;Kommandozeile anzeigen</translation>
     </message>
     <message>
@@ -858,7 +858,7 @@
         <translation>Z&amp;urücksetzen</translation>
     </message>
     <message>
-        <source>Update &amp;Streaming Support</source>
+        <source>&amp;Update Streaming Support</source>
         <translation>&amp;Streamingunterstützung aktualisieren</translation>
     </message>
     <message>
@@ -920,15 +920,15 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation>&amp;Lautstärke</translation>
     </message>
     <message>
-        <source>Open &amp;Copied Link</source>
+        <source>&amp;Open Copied Link</source>
         <translation>&amp;Kopierten Link öffnen</translation>
     </message>
     <message>
-        <source>Pla&amp;y Next File</source>
+        <source>&amp;Play Next File</source>
         <translation>&amp;Nächste Datei abspielen</translation>
     </message>
     <message>
-        <source>Hide &amp;Album Art</source>
+        <source>&amp;Hide Album Art</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -948,7 +948,7 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>[ &amp;none ]</source>
+        <source>[ none ]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -968,8 +968,8 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation>&amp;Verlangsame um 0.1%</translation>
     </message>
     <message>
-        <source>15&amp;0%</source>
-        <translation type="unfinished">200% {15&amp;0%?}</translation>
+        <source>&amp;150%</source>
+        <translation type="unfinished">200% {&amp;150%?}</translation>
     </message>
     <message>
         <source>&amp;Mute</source>
@@ -1174,7 +1174,7 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation>Im Vordergrund</translation>
     </message>
     <message>
-        <source>A&amp;lways</source>
+        <source>&amp;Always</source>
         <translation>&amp;Immer</translation>
     </message>
     <message>
@@ -1278,11 +1278,11 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation>Verlauf</translation>
     </message>
     <message>
-        <source>Remember &amp;recently opened files up to</source>
+        <source>&amp;Remember recently opened files up to</source>
         <translation>Anzahl der zuletzt geöffneten Dateien merken</translation>
     </message>
     <message>
-        <source>Remember playback &amp;position</source>
+        <source>&amp;Remember playback position</source>
         <translation>Letzte Wiedergabe&amp;position merken</translation>
     </message>
     <message>
@@ -1290,11 +1290,11 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Rese&amp;t All</source>
+        <source>&amp;Reset All</source>
         <translation>Alles zurücksetzen</translation>
     </message>
     <message>
-        <source>Chang&amp;e...</source>
+        <source>&amp;Change...</source>
         <translation>Anpassen</translation>
     </message>
     <message>
@@ -1310,7 +1310,7 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation>Standard Speicherort:</translation>
     </message>
     <message>
-        <source>Always show the &amp;save window</source>
+        <source>&amp;Always show the save window</source>
         <translation>Erweitert</translation>
     </message>
     <message>
@@ -1421,7 +1421,7 @@ Hinweis: Wert muss zwischen %0 und %1 liegen</translation>
         <translation>tga</translation>
     </message>
     <message>
-        <source>Sho&amp;w subtitles</source>
+        <source>&amp;Show subtitles</source>
         <translation>&amp;Untertitel anzeigen</translation>
     </message>
     <message>
@@ -1493,12 +1493,6 @@ Version: %0</translation>
         <translation>Lade Update herunter...</translation>
     </message>
     <message>
-        <source>fopen error
-</source>
-        <translation>fopen error
-</translation>
-    </message>
-    <message>
         <source>write error</source>
         <translation>write error</translation>
     </message>
@@ -1529,6 +1523,11 @@ Version: %0</translation>
     <message>
         <source>Done. Restarting...</source>
         <translation>Abgeschlossen. Starte neu...</translation>
+    </message>
+    <message>
+        <source>fopen error
+</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

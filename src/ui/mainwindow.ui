@@ -1022,7 +1022,7 @@ QSlider::handle:horizontal {
       <bool>false</bool>
      </property>
      <property name="title">
-      <string>Fit &amp;Window</string>
+      <string>&amp;Fit Window</string>
      </property>
      <addaction name="action_To_Current_Size"/>
      <addaction name="action50"/>
@@ -1036,7 +1036,7 @@ QSlider::handle:horizontal {
       <bool>false</bool>
      </property>
      <property name="title">
-      <string>Aspect &amp;Ratio</string>
+      <string>&amp;Aspect Ratio</string>
      </property>
      <addaction name="action_Auto_Detect"/>
      <addaction name="actionForce_4_3"/>
@@ -1048,7 +1048,7 @@ QSlider::handle:horizontal {
       <bool>false</bool>
      </property>
      <property name="title">
-      <string>Subtitle &amp;Track</string>
+      <string>&amp;Subtitle Track</string>
      </property>
      <addaction name="action_Add_Subtitle_File"/>
      <addaction name="separator"/>
@@ -1059,7 +1059,7 @@ QSlider::handle:horizontal {
       <bool>false</bool>
      </property>
      <property name="title">
-      <string>Font Si&amp;ze</string>
+      <string>&amp;Font Size</string>
      </property>
      <addaction name="action_Size"/>
      <addaction name="actionS_ize"/>
@@ -1070,7 +1070,7 @@ QSlider::handle:horizontal {
       <bool>false</bool>
      </property>
      <property name="title">
-      <string>Take &amp;Screenshot</string>
+      <string>&amp;Take Screenshot</string>
      </property>
      <addaction name="actionWith_Subtitles"/>
      <addaction name="actionWithout_Subtitles"/>
@@ -1096,7 +1096,7 @@ QSlider::handle:horizontal {
     </property>
     <widget class="QMenu" name="menuR_epeat">
      <property name="title">
-      <string>R&amp;epeat</string>
+      <string>&amp;Repeat</string>
      </property>
      <property name="icon">
       <iconset resource="../rsclist.qrc">
@@ -1112,7 +1112,7 @@ QSlider::handle:horizontal {
       <bool>false</bool>
      </property>
      <property name="title">
-      <string>Audio &amp;Tracks</string>
+      <string>&amp;Audio Tracks</string>
      </property>
      <addaction name="action_Add_Audio_File"/>
      <addaction name="separator"/>
@@ -1123,7 +1123,7 @@ QSlider::handle:horizontal {
       <bool>false</bool>
      </property>
      <property name="title">
-      <string>Spee&amp;d</string>
+      <string>&amp;Speed</string>
      </property>
      <addaction name="action_Increase"/>
      <addaction name="action_Decrease"/>
@@ -1216,12 +1216,12 @@ QSlider::handle:horizontal {
   </action>
   <action name="actionOpen_URL">
    <property name="text">
-    <string>Open &amp;Location...</string>
+    <string>&amp;Open Location...</string>
    </property>
   </action>
   <action name="actionOpen_Path_from_Clipboard">
    <property name="text">
-    <string>Open &amp;Copied Link</string>
+    <string>&amp;Open Copied Link</string>
    </property>
   </action>
   <action name="actionShow_in_Folder">
@@ -1229,7 +1229,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Show in &amp;Folder</string>
+    <string>&amp;Show in Folder</string>
    </property>
   </action>
   <action name="actionPlay_Next_File">
@@ -1237,7 +1237,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Pla&amp;y Next File</string>
+    <string>&amp;Play Next File</string>
    </property>
   </action>
   <action name="actionPlay_Previous_File">
@@ -1245,12 +1245,12 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Play &amp;Previous File</string>
+    <string>&amp;Play Previous File</string>
    </property>
   </action>
   <action name="actionE_xit">
    <property name="text">
-    <string>E&amp;xit</string>
+    <string>&amp;Exit</string>
    </property>
   </action>
   <action name="action_Full_Screen">
@@ -1272,7 +1272,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Show S&amp;ubtitles</string>
+    <string>&amp;Show Subtitles</string>
    </property>
   </action>
   <action name="actionMedia_Info">
@@ -1283,7 +1283,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Show Playback &amp;Info</string>
+    <string>&amp;Show Playback Info</string>
    </property>
   </action>
   <action name="action_Play">
@@ -1319,7 +1319,7 @@ QSlider::handle:horizontal {
      <normaloff>:/img/shuffle.svg</normaloff>:/img/shuffle.svg</iconset>
    </property>
    <property name="text">
-    <string>Sh&amp;uffle</string>
+    <string>&amp;Shuffle</string>
    </property>
   </action>
   <action name="actionStop_after_Current">
@@ -1327,7 +1327,7 @@ QSlider::handle:horizontal {
     <bool>true</bool>
    </property>
    <property name="text">
-    <string>Stop after &amp;Current</string>
+    <string>&amp;Stop after Current</string>
    </property>
   </action>
   <action name="action_Next_Chapter">
@@ -1359,7 +1359,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Frame &amp;Back Step</string>
+    <string>&amp;Frame Back Step</string>
    </property>
   </action>
   <action name="action_Jump_to_Time">
@@ -1389,7 +1389,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Hide &amp;Album Art</string>
+    <string>&amp;Hide Album Art</string>
    </property>
   </action>
   <action name="action_Dim_Lights">
@@ -1402,7 +1402,7 @@ QSlider::handle:horizontal {
   </action>
   <action name="actionOnline_Help">
    <property name="text">
-    <string>Online &amp;Help</string>
+    <string>&amp;Online Help</string>
    </property>
   </action>
   <action name="action_Check_for_Updates">
@@ -1412,17 +1412,17 @@ QSlider::handle:horizontal {
   </action>
   <action name="actionAbout_Qt">
    <property name="text">
-    <string>About &amp;Qt</string>
+    <string>&amp;About Qt</string>
    </property>
   </action>
   <action name="actionAbout_Baka_MPlayer">
    <property name="text">
-    <string>About &amp;Baka MPlayer</string>
+    <string>&amp;About Baka MPlayer</string>
    </property>
   </action>
   <action name="action_To_Current_Size">
    <property name="text">
-    <string>To &amp;Current Size</string>
+    <string>&amp;To Current Size</string>
    </property>
   </action>
   <action name="action50">
@@ -1452,17 +1452,17 @@ QSlider::handle:horizontal {
   </action>
   <action name="actionForce_4_3">
    <property name="text">
-    <string>Force &amp;4:3</string>
+    <string>&amp;Force 4:3</string>
    </property>
   </action>
   <action name="actionForce_16_9">
    <property name="text">
-    <string>Force 16:&amp;9</string>
+    <string>&amp;Force 16:9</string>
    </property>
   </action>
   <action name="actionForce_2_35_1">
    <property name="text">
-    <string>Force &amp;2.35:1</string>
+    <string>&amp;Force 2.35:1</string>
    </property>
   </action>
   <action name="action_Add_Subtitle_File">
@@ -1478,7 +1478,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>[ &amp;none ]</string>
+    <string>[ none ]</string>
    </property>
   </action>
   <action name="action_Size">
@@ -1488,7 +1488,7 @@ QSlider::handle:horizontal {
   </action>
   <action name="actionS_ize">
    <property name="text">
-    <string>S&amp;ize -</string>
+    <string>&amp;Size -</string>
    </property>
   </action>
   <action name="action_Reset_Size">
@@ -1528,7 +1528,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>[ &amp;none ]</string>
+    <string>[ none ]</string>
    </property>
   </action>
   <action name="actionShow_D_ebug_Output">
@@ -1536,7 +1536,7 @@ QSlider::handle:horizontal {
     <bool>true</bool>
    </property>
    <property name="text">
-    <string>Show &amp;Command Line</string>
+    <string>&amp;Show Command Line</string>
    </property>
   </action>
   <action name="action_Increase_Volume">
@@ -1569,7 +1569,7 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>[ &amp;none ]</string>
+    <string>[ none ]</string>
    </property>
   </action>
   <action name="action_Increase">
@@ -1592,17 +1592,17 @@ QSlider::handle:horizontal {
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>[ &amp;none ]</string>
+    <string>[ none ]</string>
    </property>
   </action>
   <action name="action150">
    <property name="text">
-    <string>15&amp;0%</string>
+    <string>&amp;150%</string>
    </property>
   </action>
   <action name="actionUpdate_Streaming_Support">
    <property name="text">
-    <string>Update &amp;Streaming Support</string>
+    <string>&amp;Update Streaming Support</string>
    </property>
   </action>
   <action name="action_Mute">
