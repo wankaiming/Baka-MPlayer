@@ -49,9 +49,9 @@ void SeekBar::mouseMoveEvent(QMouseEvent* event)
 {
     if(totalTime != 0)
     {
-        seekTime = QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())*(double)totalTime/maximum();
+        /*seekTime = QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())*(double)totalTime/maximum();
 
-        /*QToolTip::showText(QPoint(event->globalX()-25, mapToGlobal(rect().topLeft()).y()-40),
+        QToolTip::showText(QPoint(event->globalX()-25, mapToGlobal(rect().topLeft()).y()-40),
                            Util::FormatTime(seekTime, totalTime),
                            this, rect());*/
     }
