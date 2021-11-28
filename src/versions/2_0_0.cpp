@@ -55,9 +55,10 @@ void BakaEngine::Load2_0_0()
     QJsonObject root = settings->getRoot();
     window->setOnTop(QJsonValueRef2(root["onTop"]).toString("never"));
     window->setAutoFit(QJsonValueRef2(root["autoFit"]).toInt(100));
+    window->setDefaultShowPlayList(QJsonValueRef2(root["defaultShowPlayList"]).toBool(true));
     sysTrayIcon->setVisible(QJsonValueRef2(root["trayIcon"]).toBool(false));
     window->setHidePopup(QJsonValueRef2(root["hidePopup"]).toBool(false));
-    window->setRemaining(QJsonValueRef2(root["remaining"]).toBool(true));
+    window->setRemaining(QJsonValueRef2(root["duration"]).toBool(true));
     window->ui->splitter->setNormalPosition(QJsonValueRef2(root["splitter"]).toInt(window->ui->splitter->max()*1.0/8));
     window->setDebug(QJsonValueRef2(root["debug"]).toBool(false));
     //window->ui->hideFilesButton->setChecked(!QJsonValueRef2(root["showAll"]).toBool(true));
@@ -69,7 +70,7 @@ void BakaEngine::Load2_0_0()
         QJsonObject entry_json = entry.toObject();
         window->recent.append(Recent(entry_json["path"].toString(), entry_json["title"].toString(), QJsonValueRef2(entry_json["time"]).toInt(0)));
     }
-    window->setMaxRecent(QJsonValueRef2(root["maxRecent"]).toInt(0));//Ä¬ÈÏ²»¼ÇÂ¼²¥·ÅÀúÊ·
+    window->setMaxRecent(QJsonValueRef2(root["maxRecent"]).toInt(0));//é»˜è®¤ä¸è®°å½•æ’­æ”¾åŽ†å²
     window->setGestures(QJsonValueRef2(root["gestures"]).toBool(true));
     window->setResume(QJsonValueRef2(root["resume"]).toBool(true));
     window->setHideAllControls(QJsonValueRef2(root["hideAllControls"]).toBool(false));
@@ -124,9 +125,10 @@ void BakaEngine::SaveSettings()
     QJsonObject root = settings->getRoot();
     root["onTop"] = window->onTop;
     root["autoFit"] = window->autoFit;
+    root["defaultShowPlayList"] = window->defaultShowPlayList;
     root["trayIcon"] = sysTrayIcon->isVisible();
     root["hidePopup"] = window->hidePopup;
-    root["remaining"] = window->remaining;
+    root["duration"] = window->remaining;
     root["splitter"] = (window->ui->splitter->position() == 0 ||
                                     window->ui->splitter->position() == window->ui->splitter->max()) ?
                                     window->ui->splitter->normalPosition() :

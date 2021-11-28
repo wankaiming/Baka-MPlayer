@@ -23,7 +23,7 @@ MainWindow::MainWindow(QWidget *parent):
     // update streaming support disabled on unix platforms
     ui->actionUpdate_Streaming_Support->setEnabled(false);
 #endif
-    ShowPlaylist(false);
+    //ShowPlaylist(false);
     addActions(ui->menubar->actions()); // makes menubar shortcuts work even when menubar is hidden
 
     // initialize managers/handlers
@@ -571,6 +571,8 @@ MainWindow::MainWindow(QWidget *parent):
                       else
                           current->time = 0;
                   }
+                  //根据配置来决定是否显示
+                  ShowPlaylist(defaultShowPlayList);
               });
 
 //    connect(mpv, &MpvHandler::fileChanged,
@@ -1234,6 +1236,12 @@ void MainWindow::ShowPlaylist(bool visible)
         ui->splitter->setPosition(0); // set splitter position to right-most
         setFocus();
     }
+
+    //是否显示播放列表，使用全局变量记录下来，以便存到配置文件
+    if(mpv->getPlayState() > 0){
+        setDefaultShowPlayList(visible);
+    }
+
 }
 
 void MainWindow::HideAlbumArt(bool hide)

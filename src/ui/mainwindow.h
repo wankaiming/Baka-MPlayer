@@ -41,6 +41,7 @@ public:
     int getAutoFit()           { return autoFit; }
     int getMaxRecent()         { return maxRecent; }
     bool getHidePopup()        { return hidePopup; }
+    bool getDefaultShowPlayList()        { return defaultShowPlayList; }
     bool getRemaining()        { return remaining; }
     bool getScreenshotDialog() { return screenshotDialog; }
     bool getDebug()            { return debug; }
@@ -114,6 +115,7 @@ private:
          debug,
          gestures,
          resume,
+         defaultShowPlayList = true,
          hideAllControls = false;
     QHash<QString, QAction*> commandActionMap;
 
@@ -122,6 +124,7 @@ public slots:
     void setOnTop(QString s)         { emit onTopChanged(onTop = s); }
     void setAutoFit(int i)           { emit autoFitChanged(autoFit = i); }
     void setMaxRecent(int i)         { emit maxRecentChanged(maxRecent = i); }
+    void setDefaultShowPlayList(bool b)           { emit defaultShowPlayListChanged(defaultShowPlayList = b); }
     void setHidePopup(bool b)        { emit hidePopupChanged(hidePopup = b); }
     void setRemaining(bool b)        { emit remainingChanged(remaining = b); }
     void setScreenshotDialog(bool b) { emit screenshotDialogChanged(screenshotDialog = b); }
@@ -135,6 +138,7 @@ signals:
     void onTopChanged(QString);
     void autoFitChanged(int);
     void maxRecentChanged(int);
+    void defaultShowPlayListChanged(bool);
     void hidePopupChanged(bool);
     void remainingChanged(bool);
     void screenshotDialogChanged(bool);
