@@ -7,20 +7,16 @@
 #include <QStyle>
 
 #include "util.h"
-#include "customslider.h"
 
 SeekBar::SeekBar(QWidget *parent):
     CustomSlider(parent),
     tickReady(false),
-    totalTime(0),
-    seekTime(0),
-    mpv(nullptr)
+    totalTime(0)
 {
 }
 
-void SeekBar::setTracking(MpvHandler *_mpv, int _totalTime)
+void SeekBar::setTracking(int _totalTime)
 {
-    mpv = _mpv;
     if(_totalTime != 0)
     {
         totalTime = _totalTime;
@@ -49,11 +45,9 @@ void SeekBar::mouseMoveEvent(QMouseEvent* event)
 {
     if(totalTime != 0)
     {
-        /*seekTime = QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())*(double)totalTime/maximum();
-
         QToolTip::showText(QPoint(event->globalX()-25, mapToGlobal(rect().topLeft()).y()-40),
-                           Util::FormatTime(seekTime, totalTime),
-                           this, rect());*/
+                           Util::FormatTime(QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())*(double)totalTime/maximum(), totalTime),
+                           this, rect());
     }
     QSlider::mouseMoveEvent(event);
 }
@@ -61,26 +55,4 @@ void SeekBar::mouseMoveEvent(QMouseEvent* event)
 void SeekBar::paintEvent(QPaintEvent *event)
 {
     CustomSlider::paintEvent(event);
-    if(isEnabled() && tickReady)
-    {
-        QRect region = event->rect();
-        QPainter painter(this);
-        painter.setPen(QColor(190,190,190));
-        for(auto &tick : ticks)
-        {
-            int x = QStyle::sliderPositionFromValue(minimum(), maximum(), tick, width());
-            painter.drawLine(x, region.top(), x, region.bottom());
-        }
-    }
-}
-
-void SeekBar::mousePressEvent(QMouseEvent *event)
-{
-    /*
-    if (event->button() == Qt::LeftButton)
-    {
-        mpv->Seek(seekTime, false, false);
-    }
-	*/
-    CustomSlider::mousePressEvent(event);
 }

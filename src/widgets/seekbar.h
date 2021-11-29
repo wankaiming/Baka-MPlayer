@@ -6,7 +6,6 @@
 #include <QList>
 
 #include "customslider.h"
-#include "mpvHandler.h"
 
 class SeekBar : public CustomSlider
 {
@@ -15,7 +14,7 @@ public:
     explicit SeekBar(QWidget *parent = 0);
 
 public slots:
-    void setTracking(MpvHandler *_mpv, int _totalTime);
+    void setTracking(int _totalTime);
     void setTicks(QList<int> values);
 
 protected:
@@ -23,14 +22,11 @@ protected:
 
     void mouseMoveEvent(QMouseEvent* event);
     void paintEvent(QPaintEvent *event);
-    void mousePressEvent(QMouseEvent *event);
 
 private:
     QList<int> ticks;
     bool tickReady;
     int totalTime;
-    int seekTime;
-    MpvHandler *mpv;
 };
 
 #endif // SEEKBAR_H

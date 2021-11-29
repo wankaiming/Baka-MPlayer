@@ -307,7 +307,7 @@ MainWindow::MainWindow(QWidget *parent):
                         if(mpv->getSpeed() != 1)
                             mpv->Speed(1);
 
-                    ui->seekBar->setTracking(mpv, fileInfo.length);
+                    ui->seekBar->setTracking(fileInfo.length);
 
                     if(ui->actionMedia_Info->isChecked())
                         baka->MediaInfo(true);
@@ -542,7 +542,7 @@ MainWindow::MainWindow(QWidget *parent):
                             {
                                 setWindowTitle("Baka MPlayer");
                                 SetPlaybackControls(false);
-                                ui->seekBar->setTracking(mpv, 0);
+                                ui->seekBar->setTracking(0);
                                 ui->actionStop_after_Current->setChecked(false);
                                 if(ui->mpvFrame->styleSheet() != QString()) // remove filler album art
                                     ui->mpvFrame->setStyleSheet("");
