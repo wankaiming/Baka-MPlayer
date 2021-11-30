@@ -34,9 +34,7 @@ void PlaylistWidget::AttachEngine(BakaEngine *baka)
                     refresh = false;
                 }
             });
-
-    //剔除冲突的事件，避免从播放列表点击程序崩溃
-    /*connect(baka->mpv, &MpvHandler::fileChanged,
+    connect(baka->mpv, &MpvHandler::fileChanged,
             [=](QString f)
             {
                 if(newPlaylist)
@@ -55,7 +53,7 @@ void PlaylistWidget::AttachEngine(BakaEngine *baka)
                     file = f;
                 }
                 SelectIndex(CurrentIndex());
-            });*/
+            });
 
     connect(this, &PlaylistWidget::doubleClicked,
             [=](const QModelIndex &i)
