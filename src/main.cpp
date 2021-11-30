@@ -4,6 +4,7 @@
 #include <QLocale>
 #include <QString>
 #include <QMessageBox>
+#include <QProxyStyle>
 
 #include <locale.h>
 
@@ -13,6 +14,20 @@
 #include <tlhelp32.h>
 #endif
 
+
+class ProxyStyle : public QProxyStyle
+{
+public:
+    using QProxyStyle::QProxyStyle;
+    int styleHint(StyleHint hint, const QStyleOption* option = nullptr, const QWidget* widget = nullptr, QStyleHintReturn* returnData = nullptr) const override
+    {
+        if (hint == QStyle::SH_ToolTip_WakeUpDelay || hint == QStyle::SH_ToolTip_FallAsleepDelay)
+            return 0;
+        return QProxyStyle::styleHint(hint, option, widget, returnData);
+    }
+};
+
+
 int main(int argc, char *argv[])
 {
 #if defined(Q_OS_WIN)
@@ -20,6 +35,8 @@ int main(int argc, char *argv[])
 #endif
 
     QApplication a(argc, argv);
+    QApplication::setStyle(new ProxyStyle(QApplication::style()));
+
     setlocale(LC_NUMERIC, "C"); // for mpv
 
     QString exeName = a.applicationFilePath().split("/").last();
