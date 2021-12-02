@@ -47,7 +47,7 @@ void SeekBar::mouseMoveEvent(QMouseEvent* event)
 {
     if(totalTime != 0)
     {
-        Tooltip::popup(QPoint(event->globalX()-20, mapToGlobal(rect().topLeft()).y()-30), Util::FormatTime(QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())*(double)totalTime/maximum(), totalTime));
+        Tooltip::popup(QPoint(event->globalX()-20, mapToGlobal(rect().topLeft()).y()-30), Util::FormatTime((double)QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())/maximum()*totalTime, totalTime));
     }
     QSlider::mouseMoveEvent(event);
 }
