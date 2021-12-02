@@ -6,6 +6,7 @@
 #include <QList>
 
 #include "customslider.h"
+#include "tooltip.h"
 
 class SeekBar : public CustomSlider
 {
@@ -22,6 +23,7 @@ protected:
 
     void mouseMoveEvent(QMouseEvent* event);
     void paintEvent(QPaintEvent *event);
+    bool eventFilter(QObject *obj, QEvent *event);
 
 private:
     QList<int> ticks;

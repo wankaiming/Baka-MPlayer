@@ -7,12 +7,14 @@
 #include <QStyle>
 
 #include "util.h"
+#include "tooltip.h"
 
 SeekBar::SeekBar(QWidget *parent):
     CustomSlider(parent),
     tickReady(false),
     totalTime(0)
 {
+    this->installEventFilter(this);
 }
 
 void SeekBar::setTracking(int _totalTime)
@@ -45,9 +47,7 @@ void SeekBar::mouseMoveEvent(QMouseEvent* event)
 {
     if(totalTime != 0)
     {
-        QToolTip::showText(QPoint(event->globalX()-20, mapToGlobal(rect().topLeft()).y()-30),
-                           Util::FormatTime(QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())*(double)totalTime/maximum(), totalTime),
-                           this, rect());
+        Tooltip::popup(QPoint(event->globalX()-20, mapToGlobal(rect().topLeft()).y()-30), Util::FormatTime(QStyle::sliderValueFromPosition(minimum(), maximum(), event->x(), width())*(double)totalTime/maximum(), totalTime));
     }
     QSlider::mouseMoveEvent(event);
 }
@@ -55,4 +55,17 @@ void SeekBar::mouseMoveEvent(QMouseEvent* event)
 void SeekBar::paintEvent(QPaintEvent *event)
 {
     CustomSlider::paintEvent(event);
+}
+
+bool SeekBar::eventFilter(QObject *obj, QEvent *event)
+{
+    if(obj == this)
+    {
+        if(event->type() == QEvent::Leave)
+        {
+            Tooltip::hide();
+            return true;
+        }
+    }
+    return CustomSlider::eventFilter(obj, event);
 }
