@@ -1189,8 +1189,6 @@ QSlider::handle:horizontal {
     <property name="title">
      <string>&amp;Help</string>
     </property>
-    <addaction name="actionUpdate_Streaming_Support"/>
-    <addaction name="separator"/>
     <addaction name="actionAbout_Qt"/>
     <addaction name="actionAbout_Baka_MPlayer"/>
    </widget>
@@ -1600,11 +1598,7 @@ QSlider::handle:horizontal {
     <string>&amp;150%</string>
    </property>
   </action>
-  <action name="actionUpdate_Streaming_Support">
-   <property name="text">
-    <string>&amp;Update Streaming Support</string>
-   </property>
-  </action>
+
   <action name="action_Mute">
    <property name="checkable">
     <bool>true</bool>

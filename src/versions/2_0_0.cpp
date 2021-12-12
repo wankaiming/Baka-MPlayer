@@ -15,7 +15,6 @@
 
 #if defined(Q_OS_WIN)
 #include <QDate>
-#include "updatemanager.h"
 #endif
 
 #if QT_VERSION < QT_VERSION_CHECK(5, 4, 2)
@@ -75,14 +74,7 @@ void BakaEngine::Load2_0_0()
     window->setResume(QJsonValueRef2(root["resume"]).toBool(true));
     window->setHideAllControls(QJsonValueRef2(root["hideAllControls"]).toBool(false));
     window->setLang(QJsonValueRef2(root["lang"]).toString("auto"));
-#if defined(Q_OS_WIN)
-    QDate last = QDate::fromString(root["lastcheck"].toString()); // convert to date
-    if(last.daysTo(QDate::currentDate()) > 7) // been a week since we last checked?
-    {
-        update->CheckForUpdates();
-        root["lastcheck"] = QDate::currentDate().toString();
-    }
-#endif
+
     window->UpdateRecentFiles();
 
     // apply default shortcut mappings

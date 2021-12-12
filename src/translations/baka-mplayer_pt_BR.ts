@@ -999,10 +999,6 @@ Aviso: O valor deve estar entre %0 - %1</translation>
         <translation>&amp;150%</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation>Atualizar o Suporte Para &amp;Streaming</translation>
-    </message>
-    <message>
         <source>&amp;Show Playback Info</source>
         <translation>Exibir &amp;Informações de Reprodução</translation>
     </message>
@@ -1446,98 +1442,6 @@ Aviso: O valor deve estar entre %0 - %1</translation>
     <message>
         <source>Choose screenshot directory</source>
         <translation>Selecione a pasta para as capturas de tela</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>Verificar Atualizações</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Verificando Atualizações...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>Cerca de 0 segundos restantes</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>&amp;Atualizar</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Cancelar</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>&amp;FECHAR</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>Você já tem a última versão!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>Atualização Disponível!
-Versão: %0</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>Cerca de %0 segundo(s) restantes</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>Download Finalizado</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>Calculando...</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation>Não foi possível abrir arquivo para escrita...</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>Atualizando...</translation>
-    </message>
-    <message>
-        <source>Downloading update...</source>
-        <translation>Baixando atualização...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>erro de escrita</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>Download finalizado</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation>Redirecionado...</translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>Extraindo...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation>Criando script atualizador...</translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>Pronto. Reiniciando...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation>fopen(): erro</translation>
     </message>
 </context>
 </TS>

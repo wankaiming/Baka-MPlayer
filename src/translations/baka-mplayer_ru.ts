@@ -900,10 +900,6 @@ Note: Value must be from %0 - %1</source>
         <translation>Открыть &amp;расположение...</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>&amp;Show Playback Info</source>
         <translation>Показать &amp;сведения</translation>
     </message>
@@ -1434,98 +1430,6 @@ Note: Value must be from %0 - %1</source>
     <message>
         <source>Choose screenshot directory</source>
         <translation>Выберете директорию для скриншотов</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>Проверка обновлений</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Проверка на наличие обновлений...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>Осталось примерно 0 секунд</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>&amp;Обновить</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>&amp;Закрыть</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>У вас последняя версия!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>Доступно обновление!
-Версия: %0</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>Скачивание завершено</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>Осталось примерно %0 секунд</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>Подсчитываем...</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation>Не удалось открыть файл для записи...</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>Обновление...</translation>
-    </message>
-    <message>
-        <source>Downloading update...</source>
-        <translation>Скачиваем обновление...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>Ошибка записи</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>Скачивание завершено</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation>Перенаправление...</translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>Извлечение...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation>Создание скрипта обновления...</translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>Готово. Перезапуск...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation></translation>
     </message>
 </context>
 </TS>

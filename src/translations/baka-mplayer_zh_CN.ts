@@ -980,10 +980,6 @@ Note: Value must be from %0 - %1</source>
         <translation>速度: %0x</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation>更新流媒体支持</translation>
-    </message>
-    <message>
         <source>&amp;Show Playback Info</source>
         <translation>显示播放信息</translation>
     </message>
@@ -1434,98 +1430,6 @@ Note: Value must be from %0 - %1</source>
     <message>
         <source>Choose screenshot directory</source>
         <translation>选择截图目录</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>检查更新</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正在检查更新...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>剩余大约 0 秒</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>更新</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>&amp;关闭(&amp;C)</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>已经是最新版本!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>有可用更新!
-版本: %0</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>剩余大约 %0 秒</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>下载完成</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>计算中...</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Extracting...</source>
-        <translation>正在解压</translation>
-    </message>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation>无法打开文件以写入</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>正在更新...</translation>
-    </message>
-    <message>
-        <source>Downloading update...</source>
-        <translation>正在下载更新...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>写入错误</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>下载完成</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation>重定向...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation>正在创建更新脚本...</translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>完成,正在重新启动...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation>打开文件失败</translation>
     </message>
 </context>
 </TS>

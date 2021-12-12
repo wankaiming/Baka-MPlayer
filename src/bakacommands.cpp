@@ -15,12 +15,10 @@
 #include "ui/locationdialog.h"
 #include "ui/jumpdialog.h"
 #include "ui/preferencesdialog.h"
-#include "ui/updatedialog.h"
 #include "ui/screenshotdialog.h"
 #include "widgets/dimdialog.h"
 #include "mpvhandler.h"
 #include "overlayhandler.h"
-#include "updatemanager.h"
 #include "util.h"
 
 
@@ -361,7 +359,9 @@ void BakaEngine::BakaOnlineHelp(QStringList &args)
 void BakaEngine::BakaUpdate(QStringList &args)
 {
     if(args.empty())
-        UpdateDialog::CheckForUpdates(this, window);
+	{
+		
+	}
     else
     {
 #if defined(Q_OS_WIN)

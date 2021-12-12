@@ -906,10 +906,6 @@
         <translation>&amp;150%</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation>&amp;სტრიმინგის მხარდაჭერის განახლება</translation>
-    </message>
-    <message>
         <source>&amp;Mute</source>
         <translation>&amp;დადუმება</translation>
     </message>
@@ -1434,98 +1430,6 @@ Note: Value must be from %0 - %1</source>
     <message>
         <source>Choose screenshot directory</source>
         <translation>აირჩიეთ ეკრანის ასლის დირექტორია</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>განახლებების შემოწმება</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;განახლებები მოწმდება...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>დარჩენილია დაახლოებით 0 წამ(ებ)ი</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>&amp;განახლება</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;გაუქმება</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>&amp;დახურვა</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>ჩამოტვირთვა დასრულებულია</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>დარჩენილია დაახლოებით %0 წამ(ებ)ი</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>გამოთვლა...</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>თქვენ უკანასკნელი ვერსია გაქვთ!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>განახლება ხელმისაწვდომია!
-ვერსია:%0</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Downloading update...</source>
-        <translation>განახლების ჩამოტვირთვა...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>write error</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>ჩამოტვირთვა დასრულდა</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation>გადამისამართებული...</translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>ამოღება...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation>გამნახლებელის სკრიპტის შექმნა...</translation>
-    </message>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation>ჩასაწერი ფაილი ვერ გაიხსნა...</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>ნახლდება...</translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>დასრულდა. გადატვირთვა...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation>fopen error</translation>
     </message>
 </context>
 </TS>

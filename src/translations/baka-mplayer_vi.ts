@@ -915,10 +915,6 @@
         <translation></translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation>&amp;Cập nhật luồng trợ giúp</translation>
-    </message>
-    <message>
         <source>&amp;Mute</source>
         <translation>Tắt tiế&amp;ng</translation>
     </message>
@@ -1435,98 +1431,6 @@ Lưu ý: Giá trị phải trong khoảng từ %0 - %1</translation>
     <message>
         <source>Choose screenshot directory</source>
         <translation>Chọn thư mục lưu ảnh chụp</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>Kiểm tra cập nhật</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Đang kiểm tra các cập nhật...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>Còn lại khoảng 0 giây</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>&amp;Cập nhật</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Huỷ</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>ĐÓ&amp;NG</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>Hoàn thành tải về</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>Còn lại khoảng %0 giây</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>Đang tính...</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>Bạn đang có phiên bản mới nhất!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>Bản cập nhật khả dụng!
-Phiên bản: %0</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Downloading update...</source>
-        <translation>Đang tải các cập nhật...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>ghi file lỗi</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>Hoàn thành tải về</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation>Đã chuyển hướng...</translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>Đang xả nén...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation>Đang tạo kịch bản cập nhật...</translation>
-    </message>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation>Không thể mở tập tin để ghi...</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>Đang cập nhật...</translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>Hoàn thành. Đang khởi chạy lại...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation>mở file lỗi (fopen)</translation>
     </message>
 </context>
 </TS>

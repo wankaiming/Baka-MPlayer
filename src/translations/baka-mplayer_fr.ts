@@ -867,10 +867,6 @@
         <translation>&amp;Réinitialiser</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation>Mettre à jour le support de &amp;streaming</translation>
-    </message>
-    <message>
         <source>Playing</source>
         <translation>Lecture en cours</translation>
     </message>
@@ -1435,98 +1431,6 @@ Information : la valeur doit être comprise entre %0 et %1</translation>
     <message>
         <source>Choose screenshot directory</source>
         <translation>Sélectionner un dossier de capture d&apos;écran</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>Vérifier la présence de mises à jour</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vérification de la présence de mises à jour...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>Environ 0 seconde(s) restante(s)</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>&amp;Mettre à jour</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Annuler</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>&amp;FERMER</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>Téléchargement terminé</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>Environ %0 seconde(s) restante(s)</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>Calcul en cours...</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>Vous avez déjà la dernière version !</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>Mise à jour disponible !
-Version : %0</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Downloading update...</source>
-        <translation>Téléchargement des mises à jour...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>erreur de &apos;write&apos;</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>Téléchargement terminé</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation>Redirection...</translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>Extraction...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation>Création d&apos;un script de mise à jour...</translation>
-    </message>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation>Impossible d&apos;ouvrir le fichier pour écriture...</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>Mise à jour...</translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>Terminé. Redémarrage...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation>erreur de &apos;fopen&apos;</translation>
     </message>
 </context>
 </TS>

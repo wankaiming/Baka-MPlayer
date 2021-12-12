@@ -858,10 +858,6 @@
         <translation>&amp;Herstel</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation>Update &amp;Streamingondersteuning</translation>
-    </message>
-    <message>
         <source>Previous</source>
         <translation>Vorige</translation>
     </message>
@@ -1434,97 +1430,6 @@ Opmerking: Waarde moet tussen %0 en %1 zijn</translation>
     <message>
         <source>Choose screenshot directory</source>
         <translation>Kies map voor schermafdrukken</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>Controleren voor Updates</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Controleren voor updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>Ongeveer 0 second(en) resterend</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation type="unfinished">&amp;Annuleren</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>&amp;SLUITEN</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>Download Voltooid</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>Ongeveer %0 second(en) resterend</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>Berekenen...</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>U heeft de meest recente versie!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>Update beschikbaar! Versie %0</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Downloading update...</source>
-        <translation>Update downloaden...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>schrijffout</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>Download voltooid</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation>Omgeschakeld...</translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>Uitpakken...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation>Updaterscript maken...</translation>
-    </message>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation>Kan bestand niet openen om te bewerken...</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>Updaten...</translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>Klaar. Herstarten...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation></translation>
     </message>
 </context>
 </TS>

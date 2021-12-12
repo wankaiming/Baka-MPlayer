@@ -19,10 +19,7 @@ MainWindow::MainWindow(QWidget *parent):
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-#if defined(Q_OS_UNIX) || defined(Q_OS_LINUX)
-    // update streaming support disabled on unix platforms
-    ui->actionUpdate_Streaming_Support->setEnabled(false);
-#endif
+
     //ShowPlaylist(false);
     addActions(ui->menubar->actions()); // makes menubar shortcuts work even when menubar is hidden
 
@@ -92,8 +89,6 @@ MainWindow::MainWindow(QWidget *parent):
         {"output", ui->actionShow_D_ebug_Output},
         {"preferences", ui->action_Preferences},
         {"online_help", ui->actionOnline_Help},
-        {"update", ui->action_Check_for_Updates},
-        {"update youtube-dl", ui->actionUpdate_Streaming_Support},
         {"about qt", ui->actionAbout_Qt},
         {"about", ui->actionAbout_Baka_MPlayer}
     };

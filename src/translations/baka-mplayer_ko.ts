@@ -996,10 +996,6 @@ Note: Value must be from %0 - %1</source>
         <translation>속도: %0x</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation>유튜브 지원 업데이트(&amp;S)</translation>
-    </message>
-    <message>
         <source>&amp;Show Playback Info</source>
         <translation>재생 정보 보이기(&amp;I)</translation>
     </message>
@@ -1434,98 +1430,6 @@ Note: Value must be from %0 - %1</source>
     <message>
         <source>Choose screenshot directory</source>
         <translation>스크린샷 위치 선택</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>업데이트 확인</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;업데이트 확인중...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation>약 0초 남아 있음</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>업데이트(&amp;U)</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>취소(&amp;C)</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>닫기(&amp;C)</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation>최신 버전입니다!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>새로운 업데이트가 있습니다!
-버전: %0</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation>%0초 남아 있읍</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation>다운로드 완료</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation>계산중...</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation>업데이트중...</translation>
-    </message>
-    <message>
-        <source>Downloading update...</source>
-        <translation>업데이트를 다운로드중...</translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>다운로드 완료</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>압축 해제중...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>완료됨. 다시 시작중...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation>fopen error</translation>
     </message>
 </context>
 </TS>

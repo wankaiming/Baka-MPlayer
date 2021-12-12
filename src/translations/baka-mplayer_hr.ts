@@ -892,10 +892,6 @@ Napomena: vrijednost mora biti %0 - %1</translation>
         <translation type="unfinished">Otvori &amp;lokaciju...</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation type="unfinished">Ažuriraj &amp;podršku streamanja</translation>
-    </message>
-    <message>
         <source>&amp;Show Playback Info</source>
         <translation type="unfinished">Prikaži informacije &amp;reprodukcije</translation>
     </message>
@@ -1434,98 +1430,6 @@ Napomena: vrijednost mora biti %0 - %1</translation>
     <message>
         <source>Choose screenshot directory</source>
         <translation type="unfinished">Odaberite direktorij snimki zaslona</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation type="unfinished">Provjeravanje nadopuna</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Provjeravanje nadopuna...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation type="unfinished">Oko 0 sekundi preostalo</translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation type="unfinished">&amp;ZATVORI</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation type="unfinished">Imate najnoviju inačicu!</translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation type="unfinished">Dostupna nadopuna!
-Inačica: %0</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation type="unfinished">Preuzimanje završeno</translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation type="unfinished">Oko %0 sekunda(i) preostalo</translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation type="unfinished">Izračunavanje...</translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation type="unfinished">Nemoguće otvaranje datoteke zapisivanja...</translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation type="unfinished">Nadopunavanje...</translation>
-    </message>
-    <message>
-        <source>Downloading update...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>fopen error</source>
-        <translation>greška otvaranja</translation>
     </message>
 </context>
 </TS>

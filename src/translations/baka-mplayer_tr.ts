@@ -887,10 +887,6 @@ Note: Value must be from %0 - %1</source>
         <translation>&amp;Bilgisayardan Aç...</translation>
     </message>
     <message>
-        <source>&amp;Update Streaming Support</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>&amp;Show Playback Info</source>
         <translation>Oynatma Bilgisini Göster</translation>
     </message>
@@ -1432,98 +1428,6 @@ Note: Value must be from %0 - %1</source>
     </message>
     <message>
         <source>Choose screenshot directory</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>UpdateDialog</name>
-    <message>
-        <source>Check for Updates</source>
-        <translation>Güncellemeleri Kontrol Et</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Checking for updates...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About 0 second(s) remaining</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>&amp;Update</source>
-        <translation>&amp;Güncelle</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;İptal</translation>
-    </message>
-    <message>
-        <source>&amp;CLOSE</source>
-        <translation>&amp;KAPAT</translation>
-    </message>
-    <message>
-        <source>You have the latest version!</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Update Available!
-Version: %0</source>
-        <translation>Update Available!
-Sürüm: %0</translation>
-    </message>
-    <message>
-        <source>Download Complete</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>About %0 second(s) remaining</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Calculating...</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>UpdateManager</name>
-    <message>
-        <source>Could not open file for writing...</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Updating...</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Downloading update...</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>write error</source>
-        <translation>yazma hatası</translation>
-    </message>
-    <message>
-        <source>Download complete</source>
-        <translation>İndirme tamamlandı</translation>
-    </message>
-    <message>
-        <source>Redirected...</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Extracting...</source>
-        <translation>Açılıyor...</translation>
-    </message>
-    <message>
-        <source>Creating updater script...</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>Done. Restarting...</source>
-        <translation>Bitti. Yeniden başlatılıyor ...</translation>
-    </message>
-    <message>
-        <source>fopen error</source>
         <translation></translation>
     </message>
 </context>
