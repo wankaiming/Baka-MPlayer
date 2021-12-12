@@ -142,7 +142,7 @@ pacman -S git mingw-w64-x86_64-gcc mingw-w64-x86_64-binutils mingw-w64-x86_64-ma
 ## Windows 下编译出中文版本
 需要在qmake处增加额外的参数："CONFIG+=embed_translations"
 
-## 查找依赖的dll，生成绿色软件包
+## 动态编译，查找依赖的dll，生成绿色软件包
 1. ### 将release生成exe放到一个单独的文件夹 
 	C:\Users\admin\Desktop\baka-mplayer\
 
@@ -157,3 +157,14 @@ pacman -S git mingw-w64-x86_64-gcc mingw-w64-x86_64-binutils mingw-w64-x86_64-ma
 	
 	通过上面两种方法之一，拿到依赖的dll后，再通过文本处理，变为一个批量复制dll到C:\Users\admin\Desktop\baka-mplayer的cmd命令，运行这个cmd命令，就可以把所有依赖的dll都复制过来了
 
+## 静态编译
+安装静态版本的qt5 
+```
+pacman -S mingw-w64-x86_64-qt5-static
+```
+将mpv-1.dll复制到生成的baka-mplayer.exe的文件夹，然后就能运行了，还可以将流媒体支持的youtube-dl.exe一并复制过来。
+
+## 最新版 mpv-dev 下载
+https://github.com/zhongfly/mpv-winbuild/releases
+## 最新版 youtube-dl.exe 下载
+https://github.com/ytdl-org/youtube-dl/releases
