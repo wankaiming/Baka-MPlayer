@@ -126,6 +126,7 @@ However, if possible, please avoid posting bugs there and use the [issue tracker
 2. 修改镜像源，否则更新太慢
 3. pacman -Syu 更新到最新的组件 
 4. 安装编译的依赖
+5. 将 xx\mingw64\bin 路径加入Path环境变量中。这个只是方便后续使用 mingw64 下面的一些命令，非必须
 ```
 pacman -S --needed base-devel mingw-w64-x86_64-toolchain
 
@@ -141,6 +142,15 @@ pacman -S git mingw-w64-x86_64-gcc mingw-w64-x86_64-binutils mingw-w64-x86_64-ma
 
 ## Windows 下编译出中文版本
 需要在qmake处增加额外的参数："CONFIG+=embed_translations"
+
+## 下载 libmpv 放到 Baka-MPlayer\src\mpv 目录
+https://github.com/zhongfly/mpv-winbuild/releases
+https://sourceforge.net/projects/mpv-player-windows/files/libmpv/
+这里可以下载最新版的libmpv
+
+## 下载 youtube-dl 放到 Baka-MPlayer\src\youtube-dl 目录
+https://github.com/ytdl-org/youtube-dl/releases
+这里可以下载最新版的youtube-dl
 
 ## 动态编译，查找依赖的dll，生成绿色软件包
 1. ### 将release生成exe放到一个单独的文件夹 
@@ -164,7 +174,3 @@ pacman -S mingw-w64-x86_64-qt5-static
 ```
 将mpv-1.dll复制到生成的baka-mplayer.exe的文件夹，然后就能运行了，还可以将流媒体支持的youtube-dl.exe一并复制过来。
 
-## 最新版 mpv-dev 下载
-https://github.com/zhongfly/mpv-winbuild/releases
-## 最新版 youtube-dl.exe 下载
-https://github.com/ytdl-org/youtube-dl/releases
